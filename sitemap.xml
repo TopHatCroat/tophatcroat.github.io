@@ -3,44 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://martinovic.blog/post/home_git/</loc>
-    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinovic.blog/post/kdeconnect_commands/</loc>
-    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinovic.blog/post/helloworld/</loc>
-    <lastmod>2018-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinovic.blog/about/</loc>
-    <lastmod>2018-10-07T20:15:30+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://martinovic.blog/</loc>
     <lastmod>2019-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://martinovic.blog/tags/blog/</loc>
-    <lastmod>2018-10-08T00:00:00+00:00</lastmod>
+    <loc>https://martinovic.blog/categories/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://martinovic.blog/categories/</loc>
+    <loc>https://martinovic.blog/post/home_git/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinovic.blog/post/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martinovic.blog/tags/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://martinovic.blog/tags/config/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martinovic.blog/categories/development/</loc>
     <lastmod>2019-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -52,27 +50,42 @@
   </url>
   
   <url>
+    <loc>https://martinovic.blog/tags/workflow/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martinovic.blog/post/kdeconnect_commands/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://martinovic.blog/tags/kde-connect/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://martinovic.blog/post/</loc>
-    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://martinovic.blog/post/helloworld/</loc>
+    <lastmod>2018-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinovic.blog/tags/</loc>
+    <loc>https://martinovic.blog/tags/blog/</loc>
     <lastmod>2018-10-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://martinovic.blog/tags/workflow/</loc>
-    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+    <loc>https://martinovic.blog/categories/personal/</loc>
+    <lastmod>2018-10-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://martinovic.blog/about/</loc>
+    <lastmod>2018-10-07T20:15:30+02:00</lastmod>
   </url>
   
 </urlset>
