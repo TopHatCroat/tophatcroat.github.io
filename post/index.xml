@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Antonio Martinović Blog</title>
@@ -6,26 +6,35 @@
     <description>Recent content in Posts on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://martinovic.blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Merge Two History tables</title>
+      <link>https://martinovic.blog/post/merge-history-table-migration/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/post/merge-history-table-migration/</guid>
+      <description>History tables hold the past state of an entity by saving all the values of the original entity along with a date and time range field that specify when these values were valid, I will refer to this field as &amp;ldquo;validity&amp;rdquo;. This pattern is used when you need to remember the changes an entity went through over time, it is often used with, for example, pricing data, so that you can track changes of some price as time passes.</description>
+    </item>
+    
+    <item>
       <title>Home .git</title>
-      <link>https://martinovic.blog/post/home_git/</link>
+      <link>https://martinovic.blog/post/home-git/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://martinovic.blog/post/home_git/</guid>
+      <guid>https://martinovic.blog/post/home-git/</guid>
       <description>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers. But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path. So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.</description>
     </item>
     
     <item>
       <title>KDE Connect commands</title>
-      <link>https://martinovic.blog/post/kdeconnect_commands/</link>
+      <link>https://martinovic.blog/post/kdeconnect-commands/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://martinovic.blog/post/kdeconnect_commands/</guid>
+      <guid>https://martinovic.blog/post/kdeconnect-commands/</guid>
       <description>KDE Connect useful commands So I&amp;rsquo;ve been using KDE Connect Android application for a while now due to it&amp;rsquo;s great intergration KDE Plasma desktop. It allows you send files over, share your clipboard, sync notifications and has other usefull features like remote control using the phones screen as a touchpad or keyboard on your computer which is greatly apreciated feature for when you just couln&amp;rsquo;t be asked to reach for your mouse to select the next YouTube video to play.</description>
     </item>
     

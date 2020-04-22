@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Antonio Martinović Blog</title>
@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://martinovic.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://martinovic.blog/tags/docker/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migration</title>
+      <link>https://martinovic.blog/tags/migration/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://martinovic.blog/tags/postgres/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://martinovic.blog/tags/sql/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/sql/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>config</title>

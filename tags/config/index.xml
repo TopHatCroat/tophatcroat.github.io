@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>config on Antonio Martinović Blog</title>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Home .git</title>
-      <link>https://martinovic.blog/post/home_git/</link>
+      <link>https://martinovic.blog/post/home-git/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://martinovic.blog/post/home_git/</guid>
+      <guid>https://martinovic.blog/post/home-git/</guid>
       <description>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers. But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path. So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.</description>
     </item>
     
