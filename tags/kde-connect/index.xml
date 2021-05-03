@@ -6,11 +6,7 @@
     <description>Recent content in kde connect on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://martinovic.blog/tags/kde-connect/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/kde-connect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KDE Connect commands</title>
       <link>https://martinovic.blog/post/kdeconnect-commands/</link>

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Antonio Martinović">
 <meta name="description" content="My place to write about interesting stuff and tutorials about programing, tech and Linux">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.80.0" />
 <title>Home .git</title>
 <link rel="shortcut icon" href="https://martinovic.blog/images/favicon.png">
 <link rel="stylesheet" href="https://martinovic.blog/css/style.css">
@@ -24,19 +24,17 @@
 <meta property="og:description" content="Versioning the contents of your home directory" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://martinovic.blog/post/home-git/" />
-
-<meta property="og:image" content="https://martinovic.blog/images/profile.png" />
+<meta property="og:image" content="https://martinovic.blog/images/profile.png"/>
 <meta property="article:published_time" content="2019-06-09T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-06-09T00:00:00+00:00" /><meta property="og:site_name" content="Programming and Linux blog by Antonio Martinović" />
 
 
 <meta itemprop="name" content="Home .git">
 <meta itemprop="description" content="Versioning the contents of your home directory">
-
-
-<meta itemprop="datePublished" content="2019-06-09T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-06-09T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2019-06-09T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-06-09T00:00:00+00:00" />
 <meta itemprop="wordCount" content="617">
+<meta itemprop="image" content="https://martinovic.blog/images/profile.png"/>
 
 
 
@@ -91,22 +89,16 @@
         </h2>
     </header>
     <section id="post-body">
-        
-
-<p>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers.
+        <p>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers.
 But over the years, I&rsquo;ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path.
 So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.
 Bonus points for making it a public repository so others can take a look at your stuff and possibly get inspiration for improvements in their workflow, just make sure you don&rsquo;t commit any private keys.</p>
-
 <h1 id="the-setup">The setup</h1>
-
 <p>Feel free to check out my home repository over <a href="https://github.com/tophatcroat/home">here</a>. As you can see, it contains my <code>.zshrc</code>, <code>.vimrc</code> a <code>bin</code> directory with various scripts, dotfiles and some other stuff I&rsquo;ve curated while doing what I do best, fidgeting around a computer.</p>
-
 <p>You can start your own version by simply initializing a Git repository in your home directory.</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#111">cd</span> ~ <span style="color:#f92672">&amp;&amp;</span> git init</code></pre></div>
-<p>Now your directory will be full of stuff you probably don&rsquo;t want to commit, like your downloads, pictures, private keys, shell history or what have you.
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#111">cd</span> ~ <span style="color:#f92672">&amp;&amp;</span> git init
+</code></pre></div><p>Now your directory will be full of stuff you probably don&rsquo;t want to commit, like your downloads, pictures, private keys, shell history or what have you.
 So it&rsquo;s important to set up the <code>~/.gitignore</code> file immediately to stop you from accidentally committing stuff you didn&rsquo;t want to.</p>
-
 <p>Most importantly, you should ignore everything by default in your <code>~/.gitignore</code>:</p>
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Blacklist all in this folder</span>
 /*
@@ -115,14 +107,12 @@ So it&rsquo;s important to set up the <code>~/.gitignore</code> file immediately
 !.gitconfig
 !.notes/
 !bin/
-!Development/Sh</code></pre></div>
-<p>This will instruct Git to keep its hands off all files except for the <code>.gitignore</code>, <code>.gitconfig</code> and the files in the <code>.notes</code>, <code>bin</code> and <code>Development/Sh</code> directories.
+!Development/Sh
+</code></pre></div><p>This will instruct Git to keep its hands off all files except for the <code>.gitignore</code>, <code>.gitconfig</code> and the files in the <code>.notes</code>, <code>bin</code> and <code>Development/Sh</code> directories.
 So now, when you want to add any other file or directory you will require a force flag like so</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git add -f path_to_file</code></pre></div>
-<p>And that&rsquo;s basically all you need to do to set this up, it&rsquo;s now up to you to add and commit all you want and push it to the Git hosting service of your choice.</p>
-
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git add -f path_to_file
+</code></pre></div><p>And that&rsquo;s basically all you need to do to set this up, it&rsquo;s now up to you to add and commit all you want and push it to the Git hosting service of your choice.</p>
 <h1 id="the-cloning">The cloning</h1>
-
 <p>So now it&rsquo;s time to clone this into your new home directory, but if you try cloning it using <code>git clone</code> command it will complain that it can&rsquo;t do that in an non empty directory.
 To get around this, you need to initialize it first then manually add the remote and finally force a checkout like so:</p>
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#111">cd</span> ~
@@ -133,13 +123,11 @@ git remote add origin https://github.com/TopHatCroat/home
 <span style="color:#75715e"># Get the stuff from up there</span>
 git fetch
 <span style="color:#75715e"># Be careful! This will overwrite any local files existing on remote!</span>
-git reset --hard origin/master</code></pre></div>
-<p>Running the last command will basically checkout all the files from the origin master branch and overwrite any files with the same path, so be careful if you already did some setup on the new machine.</p>
-
+git reset --hard origin/master
+</code></pre></div><p>Running the last command will basically checkout all the files from the origin master branch and overwrite any files with the same path, so be careful if you already did some setup on the new machine.</p>
 <p>And that&rsquo;s it, you&rsquo;ve saved yourself the bother of copying over the config files.
 The only thing that remains is to install the tools that use the configs you&rsquo;ve just brought over.
 If you are feeling adventurous you could make a script that will do that for you like I did in <a href="https://github.com/TopHatCroat/home/blob/master/Development/Sh/setup.sh">here</a>, but that is up to you.</p>
-
 <p><em>EDIT:</em> As a response to this blog post others have pointed out <a href="https://www.atlassian.com/git/tutorials/dotfiles">another viable solution</a>, or by using <a href="https://protesilaos.com/codelog/gnu-stow-dotfiles/">GNU stow</a>, or <a href="https://github.com/technicalpickles/homesick">homesick</a> or <a href="https://github.com/thoughtbot/rcm">rcm</a>.
 Still, the solution presented here is the simplest to setup and understand and it does not depend on any other tool besides Git.
 All in all, there are a bunch of ways to do this and a lot more resources are available <a href="https://dotfiles.github.io/">here</a>.</p>
@@ -197,6 +185,10 @@ All in all, there are a bunch of ways to do this and a lot more resources are av
     
     
         <li>
+            <a href="/post/circle-ci-elasticsearh/">Setup Elasticsearch on CircleCI<aside class="dates">May 3 2021</aside></a>
+        </li>
+    
+        <li>
             <a href="/post/merge-history-table-migration/">Merge Two History tables<aside class="dates">Apr 22 2020</aside></a>
         </li>
     
@@ -251,7 +243,7 @@ All in all, there are a bunch of ways to do this and a lot more resources are av
     
     <p class="small">
     
-        © Copyright 2020 Antonio Martinović
+        © Copyright 2021 Antonio Martinović
     
     </p>
 </footer>

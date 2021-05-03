@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Antonio Martinović">
 <meta name="description" content="My place to write about interesting stuff and tutorials about programing, tech and Linux">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.80.0" />
 <title>Merge Two History tables</title>
 <link rel="shortcut icon" href="https://martinovic.blog/images/favicon.png">
 <link rel="stylesheet" href="https://martinovic.blog/css/style.css">
@@ -24,19 +24,17 @@
 <meta property="og:description" content="Migration script in PostgreSQL to merge two history tables into a single one" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://martinovic.blog/post/merge-history-table-migration/" />
-
-<meta property="og:image" content="https://martinovic.blog/images/profile.png" />
+<meta property="og:image" content="https://martinovic.blog/images/profile.png"/>
 <meta property="article:published_time" content="2020-04-22T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-04-22T00:00:00+00:00" /><meta property="og:site_name" content="Programming and Linux blog by Antonio Martinović" />
 
 
 <meta itemprop="name" content="Merge Two History tables">
 <meta itemprop="description" content="Migration script in PostgreSQL to merge two history tables into a single one">
-
-
-<meta itemprop="datePublished" content="2020-04-22T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-04-22T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2020-04-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-04-22T00:00:00+00:00" />
 <meta itemprop="wordCount" content="761">
+<meta itemprop="image" content="https://martinovic.blog/images/profile.png"/>
 
 
 
@@ -93,29 +91,19 @@
         </h2>
     </header>
     <section id="post-body">
-        
-
-<p>History tables hold the past state of an entity by saving all the values of the original entity along with a date and time range field that specify when these values were valid, I will refer to this field as <em>&ldquo;validity&rdquo;</em>.
+        <p>History tables hold the past state of an entity by saving all the values of the original entity along with a date and time range field that specify when these values were valid, I will refer to this field as <em>&ldquo;validity&rdquo;</em>.
 This pattern is used when you need to remember the changes an entity went through over time, it is often used with, for example, pricing data, so that you can track changes of some price as time passes.</p>
-
 <h3 id="the-problem">The problem</h3>
-
 <p>At the company I currently work at we wanted to reduce unnecessary complexity that got introduced as our business case evolved, this required merging two tables into a single one, which also required to to merge their corresponding history tables as well. These two history tables have different periods of validity, as they&rsquo;ve been changed at different times in history, so the merged history table must properly reflect changes in both tables. This is a bit difficult to explain with words so here&rsquo;s a graph.</p>
-
 <p>Lets say that we have a <code>products</code> table (<code>A</code>) and a <code>pricing</code> table (<code>B</code>) and the final result we are looking for after the migration is to merge these two into a single <code>AB</code> table.</p>
-
 <pre><code> A1------------A2-----
        B1-------------
 
  AB1---AB2-----AB3----
-</code></pre>
-
-<p>At <code>A1</code> point in time we created our product, then at <code>B1</code> we created our price and assigned it to the product <code>A</code>, then a bit later we updated the product at <code>A2</code>.
+</code></pre><p>At <code>A1</code> point in time we created our product, then at <code>B1</code> we created our price and assigned it to the product <code>A</code>, then a bit later we updated the product at <code>A2</code>.
 After migration, our history table should have show all values from <code>A</code> with null fields that belong to values <code>B</code> since it has not been created yet, and validity filed holding <code>[A1, infinity)</code>.
 Then, once <code>B</code> is created at <code>B1</code> the new history entity should have all values from <code>A</code> and <code>B</code> and validity field holding <code>[B1, infinity)</code> as well as update the previous validity field with <code>[A1, B1)</code> meaning this history entity is now only valid in between times <code>A1</code> and <code>B1</code> or <code>AB1</code> and <code>AB2</code>.</p>
-
 <h3 id="the-setup">The setup</h3>
-
 <p>Here is some demo data to explain with code what I fail to explain with words.</p>
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#00a8c8">CREATE</span> <span style="color:#00a8c8">TABLE</span> <span style="color:#d88200">&#34;price_history&#34;</span> <span style="color:#111">(</span>
   <span style="color:#d88200">&#34;id&#34;</span>            <span style="color:#111">INT</span>       <span style="color:#00a8c8">NOT</span> <span style="color:#00a8c8">NULL</span><span style="color:#111">,</span>
@@ -140,16 +128,15 @@ Then, once <code>B</code> is created at <code>B1</code> the new history entity s
 <span style="color:#00a8c8">INSERT</span> <span style="color:#00a8c8">INTO</span> <span style="color:#d88200">&#34;price_history&#34;</span> <span style="color:#00a8c8">VALUES</span>
     <span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span> <span style="color:#ae81ff">20</span><span style="color:#111">.</span><span style="color:#ae81ff">00</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;[2020-01-01 00:00, 2020-01-15 00:00)&#39;</span><span style="color:#111">),</span>
     <span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span> <span style="color:#ae81ff">10</span><span style="color:#111">.</span><span style="color:#ae81ff">00</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;[2020-01-15 00:00, 2020-01-25 00:00)&#39;</span><span style="color:#111">),</span>
-    <span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span> <span style="color:#ae81ff">20</span><span style="color:#111">.</span><span style="color:#ae81ff">00</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;[2020-01-25 00:00, infinity)&#39;</span><span style="color:#111">);</span></code></pre></div>
-<p>And we want to migrate the contents of these two tables into a single table that looks like this</p>
+    <span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span> <span style="color:#ae81ff">20</span><span style="color:#111">.</span><span style="color:#ae81ff">00</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;[2020-01-25 00:00, infinity)&#39;</span><span style="color:#111">);</span>
+</code></pre></div><p>And we want to migrate the contents of these two tables into a single table that looks like this</p>
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#00a8c8">CREATE</span> <span style="color:#00a8c8">TABLE</span> <span style="color:#d88200">&#34;product_v2_history&#34;</span> <span style="color:#111">(</span>
   <span style="color:#d88200">&#34;id&#34;</span>        <span style="color:#111">INT</span>       <span style="color:#00a8c8">NOT</span> <span style="color:#00a8c8">NULL</span><span style="color:#111">,</span>
   <span style="color:#d88200">&#34;name&#34;</span>      <span style="color:#111">TEXT</span>      <span style="color:#00a8c8">NOT</span> <span style="color:#00a8c8">NULL</span><span style="color:#111">,</span>
   <span style="color:#d88200">&#34;price&#34;</span>     <span style="color:#111">MONEY</span>     <span style="color:#00a8c8">NOT</span> <span style="color:#00a8c8">NULL</span><span style="color:#111">,</span>
   <span style="color:#d88200">&#34;validity&#34;</span>  <span style="color:#111">TSRANGE</span>   <span style="color:#00a8c8">NOT</span> <span style="color:#00a8c8">NULL</span>
-<span style="color:#111">);</span></code></pre></div>
-<p>At the end of the migration we expect the content of the <code>product_v2_history</code> table to be like this</p>
-
+<span style="color:#111">);</span>
+</code></pre></div><p>At the end of the migration we expect the content of the <code>product_v2_history</code> table to be like this</p>
 <pre><code>id       name            price       validity
 1        &quot;Apple&quot;         &quot;20.00&quot;     [2020-01-02 00:00, 2020-01-10 00:00)
 1        &quot;Green Apple&quot;   &quot;20.00&quot;     [2020-01-10 00:00, 2020-01-15 00:00)
@@ -159,12 +146,8 @@ Then, once <code>B</code> is created at <code>B1</code> the new history entity s
 2        &quot;Orange&quot;        &quot;10.00&quot;     [2020-01-23 00:00, 2020-01-25 00:00]
 2        &quot;Orange&quot;        &quot;20.00&quot;     [2020-01-25 00:00, 2020-01-29 00:00]
 2        &quot;Blood Orange&quot;  &quot;20.00&quot;     [2020-01-29 00:00, infinity]
-</code></pre>
-
-<p>Take a look at the <code>validity</code> field in the new table and how it reflects to <code>validity</code> fields old tables <code>product_history</code> and <code>price_history</code>.</p>
-
+</code></pre><p>Take a look at the <code>validity</code> field in the new table and how it reflects to <code>validity</code> fields old tables <code>product_history</code> and <code>price_history</code>.</p>
 <h3 id="the-solution">The solution</h3>
-
 <p>So, you can make this work with a script that looks something like this</p>
 <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#00a8c8">INSERT</span> <span style="color:#00a8c8">INTO</span> <span style="color:#111">product_v2_history</span>
 <span style="color:#00a8c8">SELECT</span>
@@ -182,13 +165,11 @@ Then, once <code>B</code> is created at <code>B1</code> the new history entity s
   <span style="color:#00a8c8">FROM</span> <span style="color:#111">product_history</span>
   <span style="color:#00a8c8">FULL</span> <span style="color:#00a8c8">JOIN</span> <span style="color:#111">price_history</span>
     <span style="color:#00a8c8">ON</span> <span style="color:#111">product_history</span><span style="color:#111">.</span><span style="color:#111">price_id</span> <span style="color:#f92672">=</span> <span style="color:#111">price_history</span><span style="color:#111">.</span><span style="color:#111">id</span> <span style="color:#00a8c8">AND</span> <span style="color:#111">product_history</span><span style="color:#111">.</span><span style="color:#111">validity</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#111">price_history</span><span style="color:#111">.</span><span style="color:#111">validity</span>
-  <span style="color:#00a8c8">ORDER</span> <span style="color:#00a8c8">BY</span> <span style="color:#111">product_history</span><span style="color:#111">.</span><span style="color:#111">validity</span><span style="color:#111">;</span></code></pre></div>
-<p>The Postgres operator that helps us a bunch here is <code>&amp;&amp;</code> which returns <code>true</code> if two ranges given intersect.</p>
-
+  <span style="color:#00a8c8">ORDER</span> <span style="color:#00a8c8">BY</span> <span style="color:#111">product_history</span><span style="color:#111">.</span><span style="color:#111">validity</span><span style="color:#111">;</span>
+</code></pre></div><p>The Postgres operator that helps us a bunch here is <code>&amp;&amp;</code> which returns <code>true</code> if two ranges given intersect.</p>
 <blockquote>
 <p>If you want to keep the name of one of the older tables and merge the data of the other history table into it, the simplest way to achieve this is to create a new history table anyway, and afterwards delete the old table and rename the new one.</p>
 </blockquote>
-
 <p>When I first thought about how to do this, I imagined the solution will be much more trouble, but as I played around with test data, it turned out to be quite a simple one to do.
 If you want to play around with this, you can use <a href="https://github.com/TopHatCroat/history-migration">this repo</a></p>
 
@@ -245,6 +226,10 @@ If you want to play around with this, you can use <a href="https://github.com/To
     
     
         <li>
+            <a href="/post/circle-ci-elasticsearh/">Setup Elasticsearch on CircleCI<aside class="dates">May 3 2021</aside></a>
+        </li>
+    
+        <li>
             <a href="/post/home-git/">Home .git<aside class="dates">Jun 9 2019</aside></a>
         </li>
     
@@ -299,7 +284,7 @@ If you want to play around with this, you can use <a href="https://github.com/To
     
     <p class="small">
     
-        © Copyright 2020 Antonio Martinović
+        © Copyright 2021 Antonio Martinović
     
     </p>
 </footer>

@@ -6,11 +6,7 @@
     <description>Recent content in postgres on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://martinovic.blog/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Merge Two History tables</title>
       <link>https://martinovic.blog/post/merge-history-table-migration/</link>
