@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Antonio Martinović Blog</title>
-    <link>https://martinovic.blog/</link>
-    <description>Recent content on Antonio Martinović Blog</description>
+    <title>Posts on Antonio Martinović Blog</title>
+    <link>https://martinovic.blog/posts/</link>
+    <description>Recent content in Posts on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setup Elasticsearch on CircleCI</title>
       <link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link>
