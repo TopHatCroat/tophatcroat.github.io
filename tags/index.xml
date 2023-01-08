@@ -5,23 +5,59 @@
     <link>https://martinovic.blog/tags/</link>
     <description>Recent content in Tags on Antonio Martinović Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ci</title>
-      <link>https://martinovic.blog/tags/ci/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <title>focus</title>
+      <link>https://martinovic.blog/tags/focus/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://martinovic.blog/tags/ci/</guid>
+      <guid>https://martinovic.blog/tags/focus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://martinovic.blog/tags/productivity/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-improvement</title>
+      <link>https://martinovic.blog/tags/self-improvement/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/self-improvement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
       <link>https://martinovic.blog/tags/development/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://martinovic.blog/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://martinovic.blog/tags/opinion/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ci</title>
+      <link>https://martinovic.blog/tags/ci/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinovic.blog/tags/ci/</guid>
       <description></description>
     </item>
     

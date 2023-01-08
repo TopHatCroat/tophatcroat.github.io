@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-gb">
   <head>
-    <title>Antonio Martinović Blog</title>
+    <title>opinion | Antonio Martinović Blog</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
@@ -30,8 +30,8 @@
 
 
   
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Antonio Martinović Blog" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Antonio Martinović Blog" />
+    <link href="/tags/opinion/index.xml" rel="alternate" type="application/rss+xml" title="Antonio Martinović Blog" />
+    <link href="/tags/opinion/index.xml" rel="feed" type="application/rss+xml" title="Antonio Martinović Blog" />
   
 
 
@@ -39,6 +39,8 @@
 
   <body>
     <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
 	
 	<a href="/posts">Archive</a>
 	<a href="/tags">Tags</a>
@@ -66,98 +68,45 @@
     
 </header>
 
-<div id="list-page">
+<section id="archive">
+   
     
-    
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/circle-ci-elasticsearh/'>Setup Elasticsearch on CircleCI</a></h1>
-            <div class ="date">
-                <time datetime="2021-05-03 00:00:00 &#43;0000 UTC">3 May 2021</time>  
-            </div>
-          </div>
+        <div class="group">
+            <h3 class="key">
+                2021
+            </h3>
 
-          
-              <div class="summary">This is going to be a short one 🔗I’m only writing this one because I could not Google exactly what I needed as easily as I expected, so hopefully it might help someone. Setting up an Elasticsearch instance to test against on CircleCI is actually quite straightforward.
-Your .circleci/config.yml should look something like this:
-jobs: build: docker: - image: circleci/&lt;language&gt;:&lt;version TAG&gt; - image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0 #1 environment: - transport.host: localhost #2 - network.</div>
-          
+            
+                <div class="value">
+                  <div class="date">
+                      <time datetime="2021-05-04 00:00:00 &#43;0000 UTC">4 May</time>
+                  </div>
+                  <div class="title">
+                      <a href="">
+                          Mistakes of modern development, vol 1
+                      </a>
 
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/merge-history-table-migration/'>Merge Two History tables</a></h1>
-            <div class ="date">
-                <time datetime="2020-04-22 00:00:00 &#43;0000 UTC">22 Apr 2020</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">History tables hold the past state of an entity by saving all the values of the original entity along with a date and time range field that specify when these values were valid, I will refer to this field as “validity”. This pattern is used when you need to remember the changes an entity went through over time, it is often used with, for example, pricing data, so that you can track changes of some price as time passes.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/home-git/'>Home .git</a></h1>
-            <div class ="date">
-                <time datetime="2019-06-09 00:00:00 &#43;0000 UTC">9 Jun 2019</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers. But over the years, I’ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path. So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/kdeconnect-commands/'>KDE Connect commands</a></h1>
-            <div class ="date">
-                <time datetime="2018-10-20 00:00:00 &#43;0000 UTC">20 Oct 2018</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">KDE Connect useful commands 🔗So I’ve been using KDE Connect Android application for a while now due to it’s great intergration KDE Plasma desktop. It allows you send files over, share your clipboard, sync notifications and has other usefull features like remote control using the phones screen as a touchpad or keyboard on your computer which is greatly apreciated feature for when you just couln’t be asked to reach for your mouse to select the next YouTube video to play.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/helloworld/'>Hello world</a></h1>
-            <div class ="date">
-                <time datetime="2018-10-08 00:00:00 &#43;0000 UTC">8 Oct 2018</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Well, hello there 🔗Welcome to my blog, this is going to be a place for me to share what and how I use in my work and at home. Stuff like mini tutorials, random rants and TILs of programming.
-Stay tuned! 🔗</div>
-          
-
-        </section>
-    
+                      
+                          <div class="tags">
+                              
+                                  <a href="https://martinovic.blog/tags/development">development</a>
+                              
+                                  <a href="https://martinovic.blog/tags/opinion">opinion</a>
+                              
+                          </div>
+                      
+                  </div>
+                </div>
+                      
+        </div>
 
     
 
 
-</div>
+
+</section>
+
+
 
     </main>
     
