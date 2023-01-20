@@ -8,7 +8,7 @@
   --border: #999999;
 
   --title-font: Unna, serif;
-  --text-font: 'Open Sans', serif;
+  --text-font: 'Open Sans', sans-serif;
 
   --text-size-scaler: 4vw;
 
@@ -213,7 +213,6 @@ nav.navigation a svg {
 #footer {
   margin: calc(var(--space-page-vertical) * 2) 0 var(--space-page-vertical) 0;
   text-align: center;
-  color: var(--text-secondary);
   font-size: var(--text-size-s);
   line-height: calc(var(--text-size-s) * var(--line-height-scalar));
 }
@@ -226,14 +225,12 @@ nav.navigation a svg {
   cursor: pointer;
 }
 
-#footer .split:hover path {
-  fill: var(--accent-color);
-  transition: 0.7s ease-out;
-  cursor: pointer;
-}
-
 #social a {
   margin: 0 var(--space-xxs);
+}
+
+#social a svg:hover {
+  fill: var(--accent-color);
 }
 
 /* main content */
@@ -269,7 +266,7 @@ nav.navigation a svg {
 
 #profile #description h1 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: calc(var(--space-content-vertical) * 0.8);
   font-size: clamp(var(--text-size-xl), 8vw, var(--text-size-xxl));
   line-height: clamp(var(--text-size-xxl), 8vw, var(--text-size-xxl));
   color: var(--text-primary);
@@ -328,7 +325,7 @@ nav.navigation a svg {
 }
 
 #article-list .title a {
-  color: #404040;
+  color: var(--text-primary);
   display: block;
 }
 
@@ -363,6 +360,10 @@ nav.navigation a svg {
 
 #article-list .pagination .next {
   float: right;
+}
+
+#article-list .pagination a {
+  color: var(--text-primary);
 }
 
 /* article page */
