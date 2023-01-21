@@ -11,29 +11,29 @@ But over the years, I&rsquo;ve found that a lot of my workflow depends on variou
 So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.
 Bonus points for making it a public repository so others can take a look at your stuff and possibly get inspiration for improvements in their workflow, just make sure you don&rsquo;t commit any private keys.</p><h1 id=the-setup>The setup
 <a href=#the-setup class=anchor><svg fill="#444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentcolor" class="bi bi-link-45deg" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 104.243 4.243l1.828-1.829A3 3 0 008.586 5.5L8 6.086a1.002 1.002.0 00-.154.199 2 2 0 01.861 3.337L6.88 11.45A2 2 0 114.05 8.62l.793-.792a4.018 4.018.0 01-.128-1.287z"/><path d="M6.586 4.672A3 3 0 007.414 9.5l.775-.776a2 2 0 01-.896-3.346L9.12 3.55a2 2 0 112.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372A3 3 0 108.414 2.844L6.586 4.672z"/></svg></a></h1><p>Feel free to check out my home repository over <a href=https://github.com/tophatcroat/home target=_blank rel=noopener>here</a>
-. As you can see, it contains my <code>.zshrc</code>, <code>.vimrc</code> a <code>bin</code> directory with various scripts, dotfiles and some other stuff I&rsquo;ve curated while doing what I do best, fidgeting around a computer.</p><p>You can start your own version by simply initializing a Git repository in your home directory.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#111>cd</span> ~ <span style=color:#f92672>&amp;&amp;</span> git init
+. As you can see, it contains my <code>.zshrc</code>, <code>.vimrc</code> a <code>bin</code> directory with various scripts, dotfiles and some other stuff I&rsquo;ve curated while doing what I do best, fidgeting around a computer.</p><p>You can start your own version by simply initializing a Git repository in your home directory.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=nb>cd</span> ~ <span class=o>&amp;&amp;</span> git init
 </span></span></code></pre></div><p>Now your directory will be full of stuff you probably don&rsquo;t want to commit, like your downloads, pictures, private keys, shell history or what have you.
-So it&rsquo;s important to set up the <code>~/.gitignore</code> file immediately to stop you from accidentally committing stuff you didn&rsquo;t want to.</p><p>Most importantly, you should ignore everything by default in your <code>~/.gitignore</code>:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#75715e># Blacklist all in this folder</span>
-</span></span><span style=display:flex><span>/*
-</span></span><span style=display:flex><span><span style=color:#75715e># Except for these</span>
-</span></span><span style=display:flex><span>!.gitignore
-</span></span><span style=display:flex><span>!.gitconfig
-</span></span><span style=display:flex><span>!.notes/
-</span></span><span style=display:flex><span>!bin/
-</span></span><span style=display:flex><span>!Development/Sh
+So it&rsquo;s important to set up the <code>~/.gitignore</code> file immediately to stop you from accidentally committing stuff you didn&rsquo;t want to.</p><p>Most importantly, you should ignore everything by default in your <code>~/.gitignore</code>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=c1># Blacklist all in this folder</span>
+</span></span><span class=line><span class=cl>/*
+</span></span><span class=line><span class=cl><span class=c1># Except for these</span>
+</span></span><span class=line><span class=cl>!.gitignore
+</span></span><span class=line><span class=cl>!.gitconfig
+</span></span><span class=line><span class=cl>!.notes/
+</span></span><span class=line><span class=cl>!bin/
+</span></span><span class=line><span class=cl>!Development/Sh
 </span></span></code></pre></div><p>This will instruct Git to keep its hands off all files except for the <code>.gitignore</code>, <code>.gitconfig</code> and the files in the <code>.notes</code>, <code>bin</code> and <code>Development/Sh</code> directories.
-So now, when you want to add any other file or directory you will require a force flag like so</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>git add -f path_to_file
+So now, when you want to add any other file or directory you will require a force flag like so</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>git add -f path_to_file
 </span></span></code></pre></div><p>And that&rsquo;s basically all you need to do to set this up, it&rsquo;s now up to you to add and commit all you want and push it to the Git hosting service of your choice.</p><h1 id=the-cloning>The cloning
 <a href=#the-cloning class=anchor><svg fill="#444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentcolor" class="bi bi-link-45deg" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 104.243 4.243l1.828-1.829A3 3 0 008.586 5.5L8 6.086a1.002 1.002.0 00-.154.199 2 2 0 01.861 3.337L6.88 11.45A2 2 0 114.05 8.62l.793-.792a4.018 4.018.0 01-.128-1.287z"/><path d="M6.586 4.672A3 3 0 007.414 9.5l.775-.776a2 2 0 01-.896-3.346L9.12 3.55a2 2 0 112.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372A3 3 0 108.414 2.844L6.586 4.672z"/></svg></a></h1><p>So now it&rsquo;s time to clone this into your new home directory, but if you try cloning it using <code>git clone</code> command it will complain that it can&rsquo;t do that in an non empty directory.
-To get around this, you need to initialize it first then manually add the remote and finally force a checkout like so:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#111>cd</span> ~
-</span></span><span style=display:flex><span><span style=color:#75715e># Create an empty git repository in your home folder</span>
-</span></span><span style=display:flex><span>git init
-</span></span><span style=display:flex><span><span style=color:#75715e># Add the remote</span>
-</span></span><span style=display:flex><span>git remote add origin https://github.com/TopHatCroat/home
-</span></span><span style=display:flex><span><span style=color:#75715e># Get the stuff from up there</span>
-</span></span><span style=display:flex><span>git fetch
-</span></span><span style=display:flex><span><span style=color:#75715e># Be careful! This will overwrite any local files existing on remote!</span>
-</span></span><span style=display:flex><span>git reset --hard origin/master
+To get around this, you need to initialize it first then manually add the remote and finally force a checkout like so:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl><span class=nb>cd</span> ~
+</span></span><span class=line><span class=cl><span class=c1># Create an empty git repository in your home folder</span>
+</span></span><span class=line><span class=cl>git init
+</span></span><span class=line><span class=cl><span class=c1># Add the remote</span>
+</span></span><span class=line><span class=cl>git remote add origin https://github.com/TopHatCroat/home
+</span></span><span class=line><span class=cl><span class=c1># Get the stuff from up there</span>
+</span></span><span class=line><span class=cl>git fetch
+</span></span><span class=line><span class=cl><span class=c1># Be careful! This will overwrite any local files existing on remote!</span>
+</span></span><span class=line><span class=cl>git reset --hard origin/master
 </span></span></code></pre></div><p>Running the last command will basically checkout all the files from the origin master branch and overwrite any files with the same path, so be careful if you already did some setup on the new machine.</p><p>And that&rsquo;s it, you&rsquo;ve saved yourself the bother of copying over the config files.
 The only thing that remains is to install the tools that use the configs you&rsquo;ve just brought over.
 If you are feeling adventurous you could make a script that will do that for you like I did in <a href=https://github.com/TopHatCroat/home/blob/master/Development/Sh/setup.sh target=_blank rel=noopener>here</a>
