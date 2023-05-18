@@ -218,7 +218,12 @@ nav.navigation a svg {
 }
 
 #footer .split {
-  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#footer .split svg:hover {
+  fill: var(--accent-color);
 }
 
 #social a {
