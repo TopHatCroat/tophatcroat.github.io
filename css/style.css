@@ -114,6 +114,7 @@ h2,
 h3 {
   font-weight: 400;
   margin-top: calc(var(--space-content-vertical) * 1.5);
+  font-family: var(--title-font);
 }
 
 p {
@@ -336,7 +337,7 @@ nav.navigation a svg {
   color: var(--text-secondary);
   word-break: normal;
   overflow-wrap: anywhere;
-  margin: calc(var(--space-page-vertical) * 0.1) 0 calc(var(--space-page-vertical) * 0.8) 0;
+  padding: calc(var(--space-page-vertical) * 0.1) 0 calc(var(--space-page-vertical) * 0.8) 0;
 }
 
 #article-list hr {
@@ -376,6 +377,15 @@ nav.navigation a svg {
   margin: 0;
 }
 
+#article .description {
+  font-size: var(--text-size-l);
+  line-height: calc(var(--text-size-xl) * var(--line-height-scalar));
+  font-weight: 300;
+  color: var(--text-secondary);
+
+  margin: 0;
+}
+
 #article .meta {
   color: var(--text-secondary);
   font-size: var(--text-size-n);
@@ -387,7 +397,7 @@ nav.navigation a svg {
 }
 
 #article .content {
-  margin-top: var(--space-page-vertical);
+  margin-top: calc(var(--space-page-vertical) * 3);
 }
 
 /* article page */
