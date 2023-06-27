@@ -1,1 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Antonio Martinović blog</title><link>https://martinovic.blog/tags/git/</link><description>Recent content in git on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 09 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Home .git</title><link>https://martinovic.blog/posts/home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/home-git/</guid><description>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers. But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path. So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Antonio Martinović blog</title><link>https://martinovic.blog/tags/git/</link><description>Recent content in git on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 09 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Home .git</title><link>https://martinovic.blog/posts/home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/home-git/</guid><description>&lt;p>Git is an incredibly useful tool for a programmer, you use it to version the
+work you do and distribute it easily on other computers.
+But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various
+configurations and helper scripts I have in my path.
+So why not version those as well, it does allow you to get started in seconds in
+a very familiar environment on every new computer or even a server if you spend
+a lot of your time in SSH sessions.
+Bonus points for making it a public repository so others can take a look at your
+stuff and possibly get inspiration for improvements in their workflow, just make
+sure you don&amp;rsquo;t commit any private keys.&lt;/p>
+&lt;h1 id="the-setup">The setup
+&lt;a href="#the-setup" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Feel free to check out my home repository
+over &lt;a href="https://github.com/tophatcroat/home"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+. As you can see, it contains
+my &lt;code>.zshrc&lt;/code>, &lt;code>.vimrc&lt;/code> a &lt;code>bin&lt;/code> directory with various scripts, dotfiles and some
+other stuff I&amp;rsquo;ve curated while doing what I do best, fidgeting around a
+computer.&lt;/p>
+&lt;p>You can start your own version by simply initializing a Git repository in your
+home directory.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~ &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> git init
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now your directory will be full of stuff you probably don&amp;rsquo;t want to commit, like
+your downloads, pictures, private keys, shell history or what have you.
+So it&amp;rsquo;s important to set up the &lt;code>~/.gitignore&lt;/code> file immediately to stop you from
+accidentally committing stuff you didn&amp;rsquo;t want to.&lt;/p>
+&lt;p>Most importantly, you should ignore everything by default in
+your &lt;code>~/.gitignore&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Blacklist all in this folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/*
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Except for these&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.gitignore
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.gitconfig
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.notes/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!bin/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!Development/Sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will instruct Git to keep its hands off all files except for
+the &lt;code>.gitignore&lt;/code>, &lt;code>.gitconfig&lt;/code> and the files in the &lt;code>.notes&lt;/code>, &lt;code>bin&lt;/code>
+and &lt;code>Development/Sh&lt;/code> directories.
+So now, when you want to add any other file or directory you will require a
+force flag like so&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git add -f path_to_file
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And that&amp;rsquo;s basically all you need to do to set this up, it&amp;rsquo;s now up to you to
+add and commit all you want and push it to the Git hosting service of your
+choice.&lt;/p>
+&lt;h1 id="the-cloning">The cloning
+&lt;a href="#the-cloning" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>So now it&amp;rsquo;s time to clone this into your new home directory, but if you try
+cloning it using &lt;code>git clone&lt;/code> command it will complain that it can&amp;rsquo;t do that in
+an non empty directory.
+To get around this, you need to initialize it first then manually add the remote
+and finally force a checkout like so:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Create an empty git repository in your home folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Add the remote&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git remote add origin https://github.com/TopHatCroat/home
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Get the stuff from up there&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git fetch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Be careful! This will overwrite any local files existing on remote!&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git reset --hard origin/master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Running the last command will basically checkout all the files from the origin
+master branch and overwrite any files with the same path, so be careful if you
+already did some setup on the new machine.&lt;/p>
+&lt;p>And that&amp;rsquo;s it, you&amp;rsquo;ve saved yourself the bother of copying over the config
+files.
+The only thing that remains is to install the tools that use the configs you&amp;rsquo;ve
+just brought over.
+If you are feeling adventurous you could make a script that will do that for you
+like I did
+in &lt;a href="https://github.com/TopHatCroat/home/blob/master/Development/Sh/setup.sh"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+,
+but that is up to you.&lt;/p>
+&lt;p>&lt;em>EDIT:&lt;/em> As a response to this blog post others have pointed
+out &lt;a href="https://www.atlassian.com/git/tutorials/dotfiles"
+target="_blank"
+rel="noopener">
+another viable solution
+&lt;/a>
+,
+or by using &lt;a href="https://protesilaos.com/codelog/gnu-stow-dotfiles/"
+target="_blank"
+rel="noopener">
+GNU stow
+&lt;/a>
+,
+or &lt;a href="https://github.com/technicalpickles/homesick"
+target="_blank"
+rel="noopener">
+homesick
+&lt;/a>
+or &lt;a href="https://github.com/thoughtbot/rcm"
+target="_blank"
+rel="noopener">
+rcm
+&lt;/a>
+.
+Still, the solution presented here is the simplest to setup and understand and
+it does not depend on any other tool besides Git.
+All in all, there are a bunch of ways to do this and a lot more resources are
+available &lt;a href="https://dotfiles.github.io/"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+.&lt;/p></description></item></channel></rss>

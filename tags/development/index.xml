@@ -1,3 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on Antonio Martinović blog</title><link>https://martinovic.blog/tags/development/</link><description>Recent content in development on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/circle-ci-elasticsearh/</guid><description>This is going to be a short one I&amp;rsquo;m only writing this one because I could not Google exactly what I needed as easily as I expected, so hopefully it might help someone. Setting up an Elasticsearch instance to test against on CircleCI is actually quite straightforward.
-Your .circleci/config.yml should look something like this:
-jobs: build: docker: - image: circleci/&amp;lt;language&amp;gt;:&amp;lt;version TAG&amp;gt; - image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0 #1 environment: - transport.host: localhost #2 - network.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on Antonio Martinović blog</title><link>https://martinovic.blog/tags/development/</link><description>Recent content in development on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/circle-ci-elasticsearh/</guid><description>&lt;h3 id="this-is-going-to-be-a-short-one">This is going to be a short one
+&lt;a href="#this-is-going-to-be-a-short-one" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>I&amp;rsquo;m only writing this one because I could not Google exactly what I needed as
+easily as I expected, so hopefully it
+might help someone.
+Setting up an Elasticsearch instance to test against on CircleCI is actually
+quite straightforward.&lt;/p>
+&lt;p>Your &lt;code>.circleci/config.yml&lt;/code> should look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">docker&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">circleci/&amp;lt;language&amp;gt;:&amp;lt;version TAG&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">docker.elastic.co/elasticsearch/elasticsearch:7.12.0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">environment&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">transport.host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">localhost&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">network.host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">127.0.0.1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">http.port&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">9200&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#4&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">cluster.name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">es-cluster&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#5&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">discovery.type&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">single-node&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#6&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">xpack.security.enabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#7&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">ES_JAVA_OPTS&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;-Xms256m -Xmx256m&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#8&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">checkout&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#9&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Wait for ES startup&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">command&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">dockerize -wait tcp://localhost:9200&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">echo &amp;#34;this is the build job&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>First thing to do is to add the Elasticsearch image (&lt;code>#1&lt;/code>)to your test image on
+Circle CI. Circle CI will use the
+first &lt;code>- image&lt;/code> in &lt;code>docker&lt;/code> YAML array as a starter image, and every
+following &lt;code>- image&lt;/code> item will be &amp;ldquo;joined&amp;rdquo; into the
+first image with their ports exposed on localhost.
+So in our case, as stated in &lt;code>#2-4&lt;/code>, Elasticsearch will start
+at &lt;code>localhost:9200&lt;/code> and that&amp;rsquo;s where it will be available
+within your tests running on Circle CI.&lt;/p>
+&lt;p>Next up is setting the name of the cluster (&lt;code>#5&lt;/code>), any name will do, use
+something that is relevant to you.
+Setting discovery type to &lt;em>singe-node&lt;/em> in &lt;code>#6&lt;/code> is required to make Elasticsearch
+work when only one instance is running,
+which is true in our case as we only want a bare bones Elasticsearch cluster to
+test on.&lt;/p>
+&lt;p>&lt;code>#7&lt;/code> is up to you, it disables security features which you probably don&amp;rsquo;t need
+on your testing environment, so this just
+makes things easy, but feel free to enable them if you want to make sure your
+code runs only on properly secured ES.&lt;/p>
+&lt;p>Circle CI has limits on how much memory your images can use, with &lt;em>medium&lt;/em>
+resource class, which is the default, this is
+4 GB, so you want to be pretty frugal with memory here.
+But you might already be aware of this if you ever saw the dreaded &lt;code>error 137&lt;/code>.
+I&amp;rsquo;ve found that 256 MB is enough for Elasticsearch to do all I need it to do
+during testing, much less than that and you
+start seeing errors during ES start up, you might need more if you are testing
+some serious workflows with ES, so adjust
+accordingly.&lt;/p>
+&lt;p>Lastly, ES takes some time to start up, so in &lt;code>#9&lt;/code> we use &lt;em>dockerize&lt;/em> to await
+the start up of it, because it would be
+possible for your tests to start befor ES is ready.
+&lt;em>dockerize&lt;/em> comes preinstalled in standard CircleCI base images.&lt;/p>
+&lt;p>And that&amp;rsquo;s it, happy testing.&lt;/p></description></item></channel></rss>

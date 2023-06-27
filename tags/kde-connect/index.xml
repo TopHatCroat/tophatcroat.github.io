@@ -1,1 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kde connect on Antonio Martinović blog</title><link>https://martinovic.blog/tags/kde-connect/</link><description>Recent content in kde connect on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/kde-connect/index.xml" rel="self" type="application/rss+xml"/><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/kdeconnect-commands/</guid><description>KDE Connect useful commands So I&amp;rsquo;ve been using KDE Connect Android application for a while now due to its great integration KDE Plasma desktop. It allows you to send files over, share your clipboard, sync notifications and has other useful features like remote control using the phones screen as a touchpad or keyboard on your computer which is greatly appreciated feature for when you just couldn&amp;rsquo;t be asked to reach for your mouse to select the next YouTube video to play.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kde connect on Antonio Martinović blog</title><link>https://martinovic.blog/tags/kde-connect/</link><description>Recent content in kde connect on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/kde-connect/index.xml" rel="self" type="application/rss+xml"/><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
+&lt;a href="#kde-connect-useful-commands" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>So I&amp;rsquo;ve been using KDE Connect Android application for a while now due to its
+great integration KDE Plasma desktop.
+It allows you to send files over, share your clipboard, sync notifications and
+has other useful features like remote control using the phones screen as a
+touchpad or keyboard on your computer which is greatly appreciated feature for
+when you just couldn&amp;rsquo;t be asked to reach for your mouse to select the next
+YouTube video to play.&lt;/p>
+&lt;p>One feature which requires a bit of effort to get the most of it are commands.
+KDE Connect gives you an option to add named shortcuts for arbitrary commands to
+run on your computer from your phone!
+The simplest example of this would be to have a shortcut named &amp;ldquo;Suspend&amp;rdquo; and a
+command which states &lt;code>systemctl suspend&lt;/code>.
+You guessed it, it would put the computer to sleep.
+So, as you can imagine, this is quite a powerful feature.&lt;/p>
+&lt;p>These are some of the commands that I use:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">PC Suspend:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl &lt;span class="nb">suspend&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PC Lock:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PC Shutdown:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl poweroff
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Up:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;increase_volume&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Down:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;decrease_volume&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Mute:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;mute&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Screenshot Fullscreen:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">spectacle -b -f -o ~/Pictures/Screenshots/screenshot-&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%y-%m-%d_%T&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Screenshot current window:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">spectacle -b -a -o ~/Pictures/Screenshots/screenshot-&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%y-%m-%d_%T&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth On:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl power on
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Off:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl power off
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Connect A320:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl connect AB:AB:FA:2F:36:AB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Disconnect A320:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl disconnect AB:AB:FA:2F:36:AB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Up:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="k">$(&lt;/span>expr &lt;span class="k">$(&lt;/span>qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness&lt;span class="k">)&lt;/span> + 20&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Down:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="k">$(&lt;/span>expr &lt;span class="k">$(&lt;/span>qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness&lt;span class="k">)&lt;/span> - 20&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Max:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightnessMax
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Off:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="m">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&lt;strong>Tip:&lt;/strong> KDE Connect Android client sorts these commands alphabeticaly, so you
+can keep then grouped by starting them with the same text&lt;/p>
+&lt;/blockquote>
+&lt;p>In case you are wondering from where did I get these beautifully long commands,
+you can find them yourself using &lt;em>qdbus&lt;/em> or if you prefer GUI tools then there
+is &lt;em>qdbusviewer&lt;/em>.
+To be fair, it&amp;rsquo;s easier to use the GUI tool if you don&amp;rsquo;t know what you are
+looking for because these commands sometimes well hidden or duplicated.&lt;/p>
+&lt;p>In short, these are &lt;a href="https://www.freedesktop.org/wiki/Software/dbus/"
+target="_blank"
+rel="noopener">
+DBus
+&lt;/a>
+commands, &lt;em>DBus&lt;/em> is a software serial bus used to send messages from one
+application to another.
+Obviously, some of these commands are specific to KDE, so you would need to dig
+in to find their counterparts for Gnome or any other DE, but if you do, please
+do leave them in comments for others to use.&lt;/p></description></item></channel></rss>

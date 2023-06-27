@@ -1,1 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>commentary on Antonio Martinović blog</title><link>https://martinovic.blog/tags/commentary/</link><description>Recent content in commentary on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/commentary/index.xml" rel="self" type="application/rss+xml"/><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/staff-engineer-commentary/</guid><description>I’ve always found the job description of a staff engineer to be a particularly compelling one, it requires a lot of technical, product and organisational knowledge, but it also needs a set of hard and soft skills to actually utilise this knowledge, without all of these combined the effect that can be achieved in an organisation is only but a fraction of what is possible. Quite a challenging set of requirements, from my point of view, so I wanted to get started on what that means in reality which brought me to Will Larson’s Staff Engineer.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>commentary on Antonio Martinović blog</title><link>https://martinovic.blog/tags/commentary/</link><description>Recent content in commentary on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/commentary/index.xml" rel="self" type="application/rss+xml"/><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/staff-engineer-commentary/</guid><description>&lt;p>I’ve always found the job description of a staff engineer to be a particularly
+compelling one, it requires a lot of technical, product and organisational
+knowledge, but it also needs a set of hard and soft skills to actually utilise
+this knowledge, without all of these combined the effect that can be achieved in
+an organisation is only but a fraction of what is possible. Quite a challenging
+set of requirements, from my point of view, so I wanted to get started on what
+that means in reality which brought me to Will Larson’s Staff Engineer.&lt;/p>
+&lt;h1 id="main-out-takes">Main out-takes
+&lt;a href="#main-out-takes" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>The author jumps directly into defining the different types of staff engineers
+and how they operate, this was a good sign for me as it led me to think Larson
+knows who the audience of this book are, it’s people who already have experience
+in the field and are looking for what’s next. First part of the book goes over a
+specific set of best practices for having the highest amount of meaningful
+impact within the organisation, from aligning teams, defining problems and ways
+to get to solutions, how to behave and position yourself within an organisation.&lt;/p>
+&lt;p>Something that I identify as a big thinking point for Larson was the
+psychological impact of working with other people, throughout the book there are
+strategically placed titbits that delve into human psychology and how we
+cooperate; I find those to be particularly valuable and insightful, after all,
+software development is there to solve problems for other humans, so
+understanding both is an advantage.&lt;/p>
+&lt;p>Another big point I found is adaptability, no single person will always have all
+the answers nor understand the nuances of the problem, sometimes we won’t agree
+in what is the best path forward and that’s totally fine. Larson states that
+leaders are not always at the helm, it is equally important to recognise when
+sponsoring others is the better choice for the organisation and to do so
+wholeheartedly. This is true for both your peers of equal or similar seniority,
+but also for the more junior team members, since these are the people who will
+one day inherit you, you want to teach them how to make decisions and be
+independent, if this means sometimes letting them make mistakes, so be it, but
+you need to give them space to grow, learn and be recognised.&lt;/p>
+&lt;p>The second part of the book is a collection of interviews with different well
+established people at staff engineer roles, I didn’t find much to be said about
+this as these were in large part the inspiration for the knowledge described in
+the first part, but it is useful and even calming to know that other people had
+their share of difficulties and it would be more worrying if the path to a staff
+engineer was smooth rather than intertwined with a fair bit of various
+hardships.&lt;/p>
+&lt;h1 id="final-words">Final words
+&lt;a href="#final-words" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>To conclude, one of the thoughts that stuck with me is that you should want to
+alternate between leading and following, for the sake of the organisation, but
+also for your own mental endurance and learning opportunities, you shouldn’t be
+the person with all the answers and your role will more often than not be
+facilitating the discovery of a solution with input from others which gets
+increasingly more important as you organisation grows. The amount of small bits
+of wisdom and references to other books and blogs makes this book also an
+excellent guide to the staff engineer path over a longer period, it is certainly
+a book I will keep coming back to.&lt;/p></description></item></channel></rss>

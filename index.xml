@@ -1,4 +1,893 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>The problem Ever since my role changed from a software engineer to a engineering manager, I&amp;rsquo;ve been coding far less, my contributions were mostly in the form of code reviews and the occasional bug fix, and this has fueled a feeling of longing to actually write code again, to be able to create something from scratch. I&amp;rsquo;ve been thinking about this for a while. I&amp;rsquo;ve decided to try and do something about it.</description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/dont-present-problems-present-solutions/</guid><description>The biggest challenge with new leaders is letting go If you are in the top end of seniority in your team or company, either in technical or domain aspects, chances are you will quickly understand the issue or a new feature your team is presented with and you’ll also have a good clue on how to approach it due to your technical knowledge or familiarity of the product and the system.</description></item><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/staff-engineer-commentary/</guid><description>I’ve always found the job description of a staff engineer to be a particularly compelling one, it requires a lot of technical, product and organisational knowledge, but it also needs a set of hard and soft skills to actually utilise this knowledge, without all of these combined the effect that can be achieved in an organisation is only but a fraction of what is possible. Quite a challenging set of requirements, from my point of view, so I wanted to get started on what that means in reality which brought me to Will Larson’s Staff Engineer.</description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/no-dumb-questions/</guid><description>There are no dumb questions, only dumb answers Above is something I always repeat when someone starts a question with &amp;ldquo;This is probably a dumb question, but&amp;hellip;&amp;rdquo;. The thought process behind it makes total sense: either a person doesn&amp;rsquo;t want to waste the time of other people on the team or doesn&amp;rsquo;t want to look silly, so they start with a nice cushion to fall back on in case somebody answers in a condescending manner.</description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/why-i-stopped-learning/</guid><description>5 years ago when I finished university I was learning something new every day, I was a software engineer and there was, what seemed to be an ocean of new shiny technology I wanted to learn about, things that make the application run faster, or UI look nicer, things that make the developer experience better. I moved from one company to another always jumping into a more interesting project, always being able to benefit from the things I’ve learnt before, finding niche and not so niche areas to improve the new code and the product I found myself working on.</description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/improvement-days/</guid><description>Improvement day(s) is an event in which each team member is given a chance to use the day(s) in whichever way they want, well as long as it’s something productive, where are not here for improving Tekken or Rocket League skills on the PlayStation. What we are about here is different things like learning something new, trying out a new library or tool and even hacking out a tiny proof of concept.</description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/try-to-take-it-easy/</guid><description>I think that we all want to be good people who try to be nice and help others even though the today’s world makes it seem like this is not the case. I try to make others’ lives easier by being respectful of their time and not asking for much of their attention because I know they are busy people with a bunch of stuff on their minds. But then I&amp;rsquo;ve found myself asking, why am I so often not giving the same treatment to myself.</description></item><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/circle-ci-elasticsearh/</guid><description>This is going to be a short one I&amp;rsquo;m only writing this one because I could not Google exactly what I needed as easily as I expected, so hopefully it might help someone. Setting up an Elasticsearch instance to test against on CircleCI is actually quite straightforward.
-Your .circleci/config.yml should look something like this:
-jobs: build: docker: - image: circleci/&amp;lt;language&amp;gt;:&amp;lt;version TAG&amp;gt; - image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0 #1 environment: - transport.host: localhost #2 - network.</description></item><item><title>Merge Two History tables</title><link>https://martinovic.blog/posts/merge-history-table-migration/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/merge-history-table-migration/</guid><description>History tables hold the past state of an entity by saving all the values of the original entity along with a date and time range field that specify when these values were valid, I will refer to this field as &amp;ldquo;validity&amp;rdquo;. This pattern is used when you need to remember the changes an entity went through over time, it is often used with, for example, pricing data, so that you can track changes of some price as time passes.</description></item><item><title>Home .git</title><link>https://martinovic.blog/posts/home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/home-git/</guid><description>Git is an incredibly useful tool for a programmer, you use it to version the work you do and distribute it easily on other computers. But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various configurations and helper scripts I have in my path. So why not version those as well, it does allow you to get started in seconds in a very familiar environment on every new computer or even a server if you spend a lot of your time in SSH sessions.</description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/kdeconnect-commands/</guid><description>KDE Connect useful commands So I&amp;rsquo;ve been using KDE Connect Android application for a while now due to its great integration KDE Plasma desktop. It allows you to send files over, share your clipboard, sync notifications and has other useful features like remote control using the phones screen as a touchpad or keyboard on your computer which is greatly appreciated feature for when you just couldn&amp;rsquo;t be asked to reach for your mouse to select the next YouTube video to play.</description></item><item><title>Hello world</title><link>https://martinovic.blog/posts/helloworld/</link><pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/helloworld/</guid><description>Well, hello there Welcome to my blog, this is going to be a place for me to share what and how I use in my work and at home. Stuff like mini tutorials, random rants and TILs of programming.
-Stay tuned!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
+&lt;a href="#the-problem" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Ever since my role changed from a software engineer to a engineering manager,
+I&amp;rsquo;ve been coding far less, my contributions were mostly in the form of code
+reviews and the occasional bug fix, and this has fueled a feeling of longing to
+actually write code again, to be able to create something from scratch. I&amp;rsquo;ve
+been thinking about this for a while. I&amp;rsquo;ve decided to try and do something about
+it.&lt;/p>
+&lt;h1 id="the-solution">The solution
+&lt;a href="#the-solution" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>I&amp;rsquo;ve decided to try and do at least 1 commit every day, this is a small
+experiment to see if I can get back into the habit of coding, and to see if I
+can actually do it every day and to keep myself a bit more accountable, I&amp;rsquo;ll be
+posting weekly updates on my blog here. This comes from the personal learnings
+of the last few years that I have spent reading through various books. One of
+the most influential ones
+was &lt;a href="https://jamesclear.com/atomic-habits"
+target="_blank"
+rel="noopener">
+Atomic Habits
+&lt;/a>
+by James Clear, which
+I highly recommend, it&amp;rsquo;s a book that has a lot of actionable advice on how to
+build habits and how to break bad ones.&lt;/p>
+&lt;p>This brings me to this little personal experiment and a few of the rules I&amp;rsquo;ve
+set for myself:&lt;/p>
+&lt;ol>
+&lt;li>At least 1 commit every day&lt;/li>
+&lt;li>There is no minimum size for the commit, simple documentation changes are
+just fine&lt;/li>
+&lt;li>The commit can be in any project, personal or open source (here&amp;rsquo;s hopping I
+can get myself involved more in open source)&lt;/li>
+&lt;/ol>
+&lt;h1 id="so-what-did-i-do-this-week">So what did I do this week?
+&lt;a href="#so-what-did-i-do-this-week" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>It has mainly been about some demo projects utilising various new web
+application development technologies, well not new per se, but certainly new to
+me. These
+were &lt;a href="https://nextjs.org/"
+target="_blank"
+rel="noopener">
+NextJS
+&lt;/a>
+, &lt;a href="https://tailwindcss.com/"
+target="_blank"
+rel="noopener">
+Tailwind CSS
+&lt;/a>
+and &lt;a href="https://fly.io"
+target="_blank"
+rel="noopener">
+Fly.io
+&lt;/a>
+. Some CMSs like &lt;a href="https://strapi.io/"
+target="_blank"
+rel="noopener">
+Strapi
+&lt;/a>
+and &lt;a href="https://payloadcms.com/"
+target="_blank"
+rel="noopener">
+Payload
+&lt;/a>
+, which might or might not feed into
+another project in the future. I&amp;rsquo;ve also been investigating a new auth
+system &lt;a href="https://zitadel.com"
+target="_blank"
+rel="noopener">
+Zitadel
+&lt;/a>
+which is showing a lot of promise for a
+small new startup. And I&amp;rsquo;ve also updated the Hugo
+theme &lt;a href="https://github.com/TopHatCroat/izi-hugo-theme/"
+target="_blank"
+rel="noopener">
+izi
+&lt;/a>
+used by this blog by
+doing some RSS bug fixes.&lt;/p>
+&lt;p>That&amp;rsquo;s it for this week, it&amp;rsquo;s not much but it&amp;rsquo;s honest work. Looking forward to
+giving a week 2 update.&lt;/p></description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
+&lt;a href="#the-biggest-challenge-with-new-leaders-is-letting-go" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>If you are in the top end of seniority in your team or company, either in
+technical or domain aspects, chances are you will quickly understand the issue
+or a new feature your team is presented with and you’ll also have a good clue on
+how to approach it due to your technical knowledge or familiarity of the product
+and the system. This is great and extremely valuable to the organisation, but
+it’s not always beneficial to immediately share your insight with the team.&lt;/p>
+&lt;p>This is one of the most fundamental mindset shifts when moving to a
+leadership focused role and it’s often one of the most difficult ones, I know
+it was for me. It is a great feeling to be the person with all the answers, the
+dopamine hit of everyone listening and agreeing with you when you shoot a great
+solution out immediately as you were presented with a problem is very addictive,
+but it stops being productive rather quickly.&lt;/p>
+&lt;p>Your job now is to support and develop others, if you are always presenting
+solutions, you are not doing that because others don’t have an opportunity to
+learn and develop and because of this, I will go even as far as to say that
+always presenting solutions is hurting the entire organisation in the long term.
+What happens if you get hit by a bus or, more probably, go on a vacation for two
+weeks? Will your team become paralysed? Will they be able to solve a crisis?&lt;/p>
+&lt;p>This gets proportionally more important with high achievers who want to be
+noticed and want to solve the big problems and if they don’t get the chance,
+they will either leave, or worse, stop striving for more due to a lack of
+motivation. Ask them directly how to solve a problem, it’s mutually beneficial,
+and it&amp;rsquo;s supposed to be genuine, not tricking others into a false sense
+responsibility, it won&amp;rsquo;t work if you make a ceremony out of it.&lt;/p></description></item><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/staff-engineer-commentary/</guid><description>&lt;p>I’ve always found the job description of a staff engineer to be a particularly
+compelling one, it requires a lot of technical, product and organisational
+knowledge, but it also needs a set of hard and soft skills to actually utilise
+this knowledge, without all of these combined the effect that can be achieved in
+an organisation is only but a fraction of what is possible. Quite a challenging
+set of requirements, from my point of view, so I wanted to get started on what
+that means in reality which brought me to Will Larson’s Staff Engineer.&lt;/p>
+&lt;h1 id="main-out-takes">Main out-takes
+&lt;a href="#main-out-takes" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>The author jumps directly into defining the different types of staff engineers
+and how they operate, this was a good sign for me as it led me to think Larson
+knows who the audience of this book are, it’s people who already have experience
+in the field and are looking for what’s next. First part of the book goes over a
+specific set of best practices for having the highest amount of meaningful
+impact within the organisation, from aligning teams, defining problems and ways
+to get to solutions, how to behave and position yourself within an organisation.&lt;/p>
+&lt;p>Something that I identify as a big thinking point for Larson was the
+psychological impact of working with other people, throughout the book there are
+strategically placed titbits that delve into human psychology and how we
+cooperate; I find those to be particularly valuable and insightful, after all,
+software development is there to solve problems for other humans, so
+understanding both is an advantage.&lt;/p>
+&lt;p>Another big point I found is adaptability, no single person will always have all
+the answers nor understand the nuances of the problem, sometimes we won’t agree
+in what is the best path forward and that’s totally fine. Larson states that
+leaders are not always at the helm, it is equally important to recognise when
+sponsoring others is the better choice for the organisation and to do so
+wholeheartedly. This is true for both your peers of equal or similar seniority,
+but also for the more junior team members, since these are the people who will
+one day inherit you, you want to teach them how to make decisions and be
+independent, if this means sometimes letting them make mistakes, so be it, but
+you need to give them space to grow, learn and be recognised.&lt;/p>
+&lt;p>The second part of the book is a collection of interviews with different well
+established people at staff engineer roles, I didn’t find much to be said about
+this as these were in large part the inspiration for the knowledge described in
+the first part, but it is useful and even calming to know that other people had
+their share of difficulties and it would be more worrying if the path to a staff
+engineer was smooth rather than intertwined with a fair bit of various
+hardships.&lt;/p>
+&lt;h1 id="final-words">Final words
+&lt;a href="#final-words" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>To conclude, one of the thoughts that stuck with me is that you should want to
+alternate between leading and following, for the sake of the organisation, but
+also for your own mental endurance and learning opportunities, you shouldn’t be
+the person with all the answers and your role will more often than not be
+facilitating the discovery of a solution with input from others which gets
+increasingly more important as you organisation grows. The amount of small bits
+of wisdom and references to other books and blogs makes this book also an
+excellent guide to the staff engineer path over a longer period, it is certainly
+a book I will keep coming back to.&lt;/p></description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/no-dumb-questions/</guid><description>&lt;h1 id="there-are-no-dumb-questions-only-dumb-answers">There are no dumb questions, only dumb answers
+&lt;a href="#there-are-no-dumb-questions-only-dumb-answers" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Above is something I always repeat when someone starts a question with &amp;ldquo;This is
+probably a dumb question, but&amp;hellip;&amp;rdquo;.
+The thought process behind it makes total sense: either a person doesn&amp;rsquo;t want to
+waste the time of other people on the team or doesn&amp;rsquo;t want to look silly, so
+they start with a nice cushion to fall back on in case somebody answers in a
+condescending manner.
+But in reality, this kind of interaction doesn&amp;rsquo;t help anyone.
+Let me break down my reasoning.&lt;/p>
+&lt;h2 id="asking-lots-of-questions-saves-time">Asking lots of questions saves time
+&lt;a href="#asking-lots-of-questions-saves-time" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>You know what&amp;rsquo;s much dumber than asking stupid questions? Carrying on with doing
+something with an incorrect assumption from the beginning.
+Many wise people have been heard quoting: &amp;ldquo;Assumption is the mother of all
+fuck-ups&amp;rdquo;.
+Making sure that requirements are well-defined and that you understand them
+completely is always a good reason to ask yet another question.
+This ensures that you are not wasting your own time, and then additionally, the
+time needed for you or another person to notice the mistake and for the
+corrections to be made.
+Any mistake, in general, is much cheaper to fix time-wise before any
+implementation work takes place, and it gets exponentially more expensive with
+each stage, from QA to production.&lt;/p>
+&lt;h2 id="it-offers-a-chance-to-rethink">It offers a chance to rethink
+&lt;a href="#it-offers-a-chance-to-rethink" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>People are surprisingly adept at forgetting things, overlooking details and
+jumping to conclusions, so sometimes the simplest of questions can make even the
+most senior team members take a step back and reassess, or observe the problem
+from another perspective and notice something new, maybe that an important piece
+of information is missing or a technical debt that needs to be dealt with first
+related to that shortcut we took in the previous sprint.
+Most products are trying to solve difficult problems with edge cases and
+indirect complexities, otherwise, those should instead be an Excel spreadsheet
+with a few macros or a WordPress site.&lt;/p>
+&lt;h2 id="it-promotes-a-culture-of-communication-and-collaboration">It promotes a culture of communication and collaboration
+&lt;a href="#it-promotes-a-culture-of-communication-and-collaboration" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>Very often there is a lot of uncertainty when new features or products are
+developed, by fostering clear and open communication through encouragement of
+asking questions we can greatly reduce those uncertainties. When people feel
+comfortable sharing their thoughts and ideas they will be more likely to discuss
+their work and seek assistance when needed, and you want this kind of
+cooperation within a team.
+Everyone can behave in this way, but it’s especially important for more senior
+members as they should aim for their behaviour being what others look up to, and
+if they are acting like a dismissive smartarses others will be afraid to speak
+for fear of looking stupid.&lt;/p>
+&lt;h1 id="but-please-be-respectful-of-others-time">But please be respectful of others’ time
+&lt;a href="#but-please-be-respectful-of-others-time" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Asking questions is good, regardless if you think it’s a small question or a big
+question, especially as a more junior team member, you don’t understand the
+whole domain enough to know how good the question is, and sometime the same
+question will be asked multiple times, sometimes it’s just that complicated and
+that’s fine (this is a good indication that it should be documented).
+With that said, if you asked your colleague a question and they’ve invested time
+and effort to answer you, then you should invest the effort to remember what was
+said, or even better, write it down, because it can get irritating to be asked
+the same question multiple times, it could be interpreted as disrespectful even.&lt;/p></description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/why-i-stopped-learning/</guid><description>&lt;p>5 years ago when I finished university I was learning something new every day, I
+was a software engineer and there was, what seemed to be an ocean of new shiny
+technology I wanted to learn about, things that make the application run faster,
+or UI look nicer, things that make the developer experience better.
+I moved from one company to another always jumping into a more interesting
+project, always being able to benefit from the things I’ve learnt before,
+finding niche and not so niche areas to improve the new code and the product I
+found myself working on.&lt;/p>
+&lt;p>And it worked for a while, and then I got an offer to lead a team of developers,
+I took it, of course, because that’s what your next career step is, right?
+Right?
+No, it’s really not, but I didn’t know that at the time.
+Anyway, this is a big change, we are not talking about another programming
+language or another framework here, it’s a completely different set of skills,
+and more importantly, values that I need to live now.&lt;/p>
+&lt;h2 id="how-it-happened">How it happened
+&lt;a href="#how-it-happened" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>This clarity of knowing exactly what I need to learn next, which was in plain
+sight at the start of one’s career, and sense of progress is exactly what
+motivated me and helped me greatly in achieving learning goals.
+However, when I moved into a more management focused role, it was the first time
+in my life that I didn&amp;rsquo;t know exactly what to learn about next, I had very
+little people experience and no idea of what I need to know about to become a
+good team lead or engineering manager or however you like to call it.&lt;/p>
+&lt;p>Not having a well defined goal, makes every self-improvement attempt much less
+effective and enjoyable, it starts making it feel like a chore, something you
+have to do to achieve something, but you are not sure exactly what, or are you
+even going in the right direction.
+If this persists a person will slowly invest less and less time into learning,
+probably the most evil thing about it is that it creeps in slowly, which makes
+it hard to notice, it’s something to do with frogs.&lt;/p>
+&lt;p>What helped me realise that this was happening to me was that I found myself
+struggling to focus, I would rarely get in the flow, and I started looking
+forward to not doing anything on the weekend a bit more than before.
+Don’t get me wrong, not doing anything over the weekend is amazing and I
+recommend it wholeheartedly, but I knew that it wasn&amp;rsquo;t who I was every weekend.&lt;/p>
+&lt;h2 id="regaining-my-drive">Regaining My Drive
+&lt;a href="#regaining-my-drive" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>Getting back on track is not an easy process and, much like it went away,
+getting back takes time.
+It requires self-reflection to identify the source of problem.
+What often seems to be the case is that the cheese has been moved, as stated in
+the famous
+book &lt;a href="https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese"
+target="_blank"
+rel="noopener">
+Who Moved My Chese
+&lt;/a>
+,
+and we don&amp;rsquo;t realise it.
+This is what happened to me, it can come in different forms to each person, for
+me it was that even though my job description changed by quite a bit, I did not
+adapt my learning direction and just kept learning as if what I am doing is
+still individual contribution, I saw that I needed to change that.&lt;/p>
+&lt;p>Trying to optimise your learning path, like picking the best resources only, is
+not something you should be overthinking, it’s a sort
+of &lt;a href="https://en.wikipedia.org/wiki/Bin_packing_problem"
+target="_blank"
+rel="noopener">
+bin packing problem
+&lt;/a>
+,
+but with time and it’s virtually impossible to have an optimal progression path.
+What is important is that what you learn you can immediately try out, not only
+will this ensure the lessons stick, but it will also give a huge motivation
+boost to keep at it.&lt;/p>
+&lt;p>To conclude, what I changed was I realised the immense value of the new position
+I found myself in being able to do much more with a team then I can do on my on,
+in hindsight, I can’t believe I didn&amp;rsquo;t see it sooner.
+Some take a more drastic approach, I know a person who quit a very well paid job
+to instead spend a year learning ML and AI, simply because he was not feeling
+motivated to work and he realised he didn’t want his whole life to feel like a
+chore because of it.&lt;/p>
+&lt;p>To conclude, if you are not feeling motivated to keep learning about whatever it
+is you do, you need to change something, either your approach, or what you do.&lt;/p></description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/improvement-days/</guid><description>&lt;p>Improvement day(s) is an event in which each team member is given a chance to
+use the day(s) in whichever way they want, well as long as it’s something
+productive, where are not here for improving Tekken or Rocket League skills on
+the PlayStation.
+What we are about here is different things like learning something new, trying
+out a new library or tool and even hacking out a tiny proof of concept.
+In the company I work at, we’ve been doing this for more than 2 years already,
+and I’ve seen it become one of the things everybody is looking forward to, it
+has helped in promoting innovation and creativity, learning and cooperation as
+well as getting across the message that constant experimentation and improvement
+is part of our culture, and we support it by having dedicated time for it.&lt;/p>
+&lt;h3 id="how-it-works">How it works?
+&lt;a href="#how-it-works" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>The reasoning behind something like this is that we want to give everyone an
+opportunity to do something completely different, without feeling pressure to
+succeed, the only expectation is learning and sharing that knowledge with others
+afterwards.
+The process looks like this, everyone who wants to participate comes up with
+ideas for improvement and writes them down in a public shared space, it
+can be an idea that they want to work on or for someone else to take up.
+Others can then give their input on the idea or even suggest that they join
+forces and work on it together.
+Then before we kick the improvement day(s) off, everyone participating gets
+together and shares with others what they will be doing.
+The end of this event is another meeting called “Improvement demo” where we
+present the outcomes, however successful they may be.&lt;/p>
+&lt;p>It’s important to stress that it is completely OK not to participate, maybe
+whatever the person is working on as part of daily business at the moment is
+even more interesting, and also that it’s OK not
+to achieve what was initially planned, it’s a very much a defining part of life
+that it doesn&amp;rsquo;t always go according to the plan and that’s fine, this is an
+opportunity to learn something from it, maybe that PoC wasn&amp;rsquo;t as simple as
+originally thought, or, more often, the idea was a bit too ambitious from the
+start.
+This is one of the reasons why the initial meeting is there, it gives another
+chance for more senior colleagues to add their suggestions and raise any
+concerns.&lt;/p>
+&lt;h3 id="when-it-goes-right">When it goes right
+&lt;a href="#when-it-goes-right" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>In the past I’ve seen some really awesome things come out of it like
+improvements in the CI/CD pipeline, developer experience, web app loading time
+reduction, ease of onboarding new team members, but also sometimes it shows the
+benefits of doing things in a different and new way and this is then brought
+into the regular sprint for any effort necessary to generally apply it.
+There are also benefits that are not so visible, like facilitating discussion,
+bouncing of ideas and generally advocating the spirit of always trying new
+things with the aim of doing it better.&lt;/p>
+&lt;h3 id="things-to-watch-out-for">Things to watch out for
+&lt;a href="#things-to-watch-out-for" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Improvement days are not about fixing technical debt or implementing purely
+technical ideas that should otherwise be done as part of regular work, it should
+not be used as a go to for all kinds of experimentation especially when those
+are bigger things that can’t be done by a single person.
+Another issue that is much more difficult to notice is that it could lead to
+individuals feeling a bit unhappy after one or more of these which, in their
+eyes, ended up as a “failure” because they did not achieve the goal, or if they
+look at another’s “success” with a bit of an envious aftertaste.
+I’ve put those words in quotes because at all times, whatever the end result is,
+something has been learnt, and learning doesn&amp;rsquo;t always bring what we expect it
+to.
+So you might say, maybe better call it “Learning days”, but I don’t personally
+like that because learning happens every day during usual work, not just on
+certain days.&lt;/p>
+&lt;h3 id="final-thoughts">Final thoughts
+&lt;a href="#final-thoughts" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>I hope this post gave you an inspiration to try and push for something like this
+at your own workplace.
+The other companies that do something like this only do it with the engineering
+department, but I feel like this is something that could be useful in other
+departments as well since all have complex processes that could benefit from a
+fresh new improvement, but I have yet to find instances where the company does
+this more broadly.&lt;/p></description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/try-to-take-it-easy/</guid><description>&lt;p>I think that we all want to be good people who try to be nice and help others
+even though the today’s world makes it seem like this is not the case.
+I try to make others’ lives easier by being respectful of their time and not
+asking for much of their attention because I know they are busy people with a
+bunch of stuff on their minds.
+But then I&amp;rsquo;ve found myself asking, why am I so often not giving the same
+treatment to myself.&lt;/p>
+&lt;p>Speaking out of my own previous experience, my plans and aspirations were very
+ambitious, but I did not reach the goals that I’ve set for myself, I thought
+it&amp;rsquo;s because I’m lazy, or because I’m not good enough, but that&amp;rsquo;s not it.
+No one wants to work too much, and working too long tends to produce very
+diminishing returns as the focus and effectiveness of my work slips, my
+creativity suffers and, in my opinion, along with time, creativity my most
+valuable resource as an individual.&lt;/p>
+&lt;p>What helped me arrive to this conclusion was what I read in a book
+&lt;a href="https://www.goodreads.com/book/show/6452796-drive"
+target="_blank"
+rel="noopener">
+Drive by Daniel H. Pink
+&lt;/a>
+which talks about motivation and how to create an environment that nurtures it,
+mostly from an organisation’s perspective, but it can be applied to leading
+ourselves as well.
+It&amp;rsquo;s an excellent and concise book which I wholeheartedly recommend.&lt;/p>
+&lt;p>As much as we would like to be incredibly efficient and productive, humans are
+simply not, and the solution is definitely not to push are selves to the point
+of burning out, you are not a lesser person for allowing yourself to take it a
+bit easier.
+That&amp;rsquo;s why I started reducing the amount of things on my plate and I think you
+should consider it as well. There are real benefits to taking the time to rest,
+recharge and refocus and there are others
+&lt;a href="https://www.cnbc.com/2023/01/06/how-slowing-down-at-work-can-help-you-get-more-done.html"
+target="_blank"
+rel="noopener">
+who agree with this
+&lt;/a>
+.&lt;/p>
+&lt;p>This definitely doesn&amp;rsquo;t mean reducing my ultimate aspirations or accepting that
+I will not achieve what I want, on the contrary, this means to actually allow
+myself to focus on the few things I have happening in my life currently so that
+I ensure I give it my full attention and, more importantly, finish those things
+before moving on to the next one (or quitting because I realise I don&amp;rsquo;t actually
+want it that much, but don&amp;rsquo;t use it as an excuse).
+It is even not counter-intuitive once I understood that one of the biggest time
+wasters I have, and I have more than enough of those, is the constant context
+switching that just disappears when there is fewer things going on at once.&lt;/p>
+&lt;p>There is a bazillion of people wrote and talked about this topic on the
+internet, good and bad (like this blog post)that there is a lot of other
+resources you can find on how taking a lighter approach ultimately allows us to
+achieve bigger results.
+If you want to see more of it I recommend this excellent talk with plenty of
+other good
+ideas: &lt;a href="https://youtu.be/FS1mnISoG7U"
+target="_blank"
+rel="noopener">
+Scaling Yourself by Scott Hanselman
+&lt;/a>
+&lt;/p></description></item><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/circle-ci-elasticsearh/</guid><description>&lt;h3 id="this-is-going-to-be-a-short-one">This is going to be a short one
+&lt;a href="#this-is-going-to-be-a-short-one" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>I&amp;rsquo;m only writing this one because I could not Google exactly what I needed as
+easily as I expected, so hopefully it
+might help someone.
+Setting up an Elasticsearch instance to test against on CircleCI is actually
+quite straightforward.&lt;/p>
+&lt;p>Your &lt;code>.circleci/config.yml&lt;/code> should look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">docker&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">circleci/&amp;lt;language&amp;gt;:&amp;lt;version TAG&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">docker.elastic.co/elasticsearch/elasticsearch:7.12.0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">environment&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">transport.host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">localhost&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">network.host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">127.0.0.1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">http.port&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">9200&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#4&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">cluster.name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">es-cluster&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#5&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">discovery.type&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">single-node&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#6&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">xpack.security.enabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#7&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">ES_JAVA_OPTS&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;-Xms256m -Xmx256m&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#8&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">checkout&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#9&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Wait for ES startup&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">command&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">dockerize -wait tcp://localhost:9200&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">echo &amp;#34;this is the build job&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>First thing to do is to add the Elasticsearch image (&lt;code>#1&lt;/code>)to your test image on
+Circle CI. Circle CI will use the
+first &lt;code>- image&lt;/code> in &lt;code>docker&lt;/code> YAML array as a starter image, and every
+following &lt;code>- image&lt;/code> item will be &amp;ldquo;joined&amp;rdquo; into the
+first image with their ports exposed on localhost.
+So in our case, as stated in &lt;code>#2-4&lt;/code>, Elasticsearch will start
+at &lt;code>localhost:9200&lt;/code> and that&amp;rsquo;s where it will be available
+within your tests running on Circle CI.&lt;/p>
+&lt;p>Next up is setting the name of the cluster (&lt;code>#5&lt;/code>), any name will do, use
+something that is relevant to you.
+Setting discovery type to &lt;em>singe-node&lt;/em> in &lt;code>#6&lt;/code> is required to make Elasticsearch
+work when only one instance is running,
+which is true in our case as we only want a bare bones Elasticsearch cluster to
+test on.&lt;/p>
+&lt;p>&lt;code>#7&lt;/code> is up to you, it disables security features which you probably don&amp;rsquo;t need
+on your testing environment, so this just
+makes things easy, but feel free to enable them if you want to make sure your
+code runs only on properly secured ES.&lt;/p>
+&lt;p>Circle CI has limits on how much memory your images can use, with &lt;em>medium&lt;/em>
+resource class, which is the default, this is
+4 GB, so you want to be pretty frugal with memory here.
+But you might already be aware of this if you ever saw the dreaded &lt;code>error 137&lt;/code>.
+I&amp;rsquo;ve found that 256 MB is enough for Elasticsearch to do all I need it to do
+during testing, much less than that and you
+start seeing errors during ES start up, you might need more if you are testing
+some serious workflows with ES, so adjust
+accordingly.&lt;/p>
+&lt;p>Lastly, ES takes some time to start up, so in &lt;code>#9&lt;/code> we use &lt;em>dockerize&lt;/em> to await
+the start up of it, because it would be
+possible for your tests to start befor ES is ready.
+&lt;em>dockerize&lt;/em> comes preinstalled in standard CircleCI base images.&lt;/p>
+&lt;p>And that&amp;rsquo;s it, happy testing.&lt;/p></description></item><item><title>Merge Two History tables</title><link>https://martinovic.blog/posts/merge-history-table-migration/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/merge-history-table-migration/</guid><description>&lt;p>History tables hold the past state of an entity by saving all the values of the
+original entity along with a date and time range field that specify when these
+values were valid, I will refer to this field as &lt;em>&amp;ldquo;validity&amp;rdquo;&lt;/em>.
+This pattern is used when you need to remember the changes an entity went
+through over time, it is often used with, for example, pricing data, so that you
+can track changes of some price as time passes.&lt;/p>
+&lt;h3 id="the-problem">The problem
+&lt;a href="#the-problem" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>At the company I currently work at we wanted to reduce unnecessary complexity
+that got introduced as our business case evolved, this required merging two
+tables into a single one, which also required to to merge their corresponding
+history tables as well. These two history tables have different periods of
+validity, as they&amp;rsquo;ve been changed at different times in history, so the merged
+history table must properly reflect changes in both tables.
+This is a bit difficult to explain with words so here&amp;rsquo;s a graph.&lt;/p>
+&lt;p>Lets say that we have a &lt;code>products&lt;/code> table (&lt;code>A&lt;/code>) and a &lt;code>pricing&lt;/code> table (&lt;code>B&lt;/code>) and
+the final result we are looking for after the migration is to merge these two
+into a single &lt;code>AB&lt;/code> table.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> A1------------A2-----
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> B1-------------
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> AB1---AB2-----AB3----
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>At &lt;code>A1&lt;/code> point in time we created our product, then at &lt;code>B1&lt;/code> we created our price
+and assigned it to the product &lt;code>A&lt;/code>, then a bit later we updated the product
+at &lt;code>A2&lt;/code>.
+After migration, our history table should have show all values from &lt;code>A&lt;/code> with
+null fields that belong to values &lt;code>B&lt;/code> since it has not been created yet, and
+validity filed holding &lt;code>[A1, infinity)&lt;/code>.
+Then, once &lt;code>B&lt;/code> is created at &lt;code>B1&lt;/code> the new history entity should have all values
+from &lt;code>A&lt;/code> and &lt;code>B&lt;/code> and validity field holding &lt;code>[B1, infinity)&lt;/code> as well as update
+the previous validity field with &lt;code>[A1, B1)&lt;/code> meaning this history entity is now
+only valid in between times &lt;code>A1&lt;/code> and &lt;code>B1&lt;/code> or &lt;code>AB1&lt;/code> and &lt;code>AB2&lt;/code>.&lt;/p>
+&lt;h3 id="the-setup">The setup
+&lt;a href="#the-setup" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Here is some demo data to explain with code what I fail to explain with words.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;price_history&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;amount&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">MONEY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;validity&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TSRANGE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;product_history&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;price_id&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">TEXT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;validity&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TSRANGE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">INSERT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">INTO&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;product_history&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">VALUES&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Apple&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-02 00:00, 2020-01-10 00:00)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Green Apple&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-10 00:00, infinity)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Ornage&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-20 00:00, 2020-01-23 00:00)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Orange&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-23 00:00, 2020-01-29 00:00)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Blood Orange&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-29 00:00, infinity)&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">INSERT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">INTO&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;price_history&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">VALUES&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">20&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="mi">00&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-01 00:00, 2020-01-15 00:00)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="mi">00&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-15 00:00, 2020-01-25 00:00)&amp;#39;&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">20&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="mi">00&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;[2020-01-25 00:00, infinity)&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And we want to migrate the contents of these two tables into a single table that
+looks like this&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;product_v2_history&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">TEXT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;price&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">MONEY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;validity&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TSRANGE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NOT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">NULL&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>At the end of the migration we expect the content of the &lt;code>product_v2_history&lt;/code>
+table to be like this&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">id name price validity
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 &amp;#34;Apple&amp;#34; &amp;#34;20.00&amp;#34; [2020-01-02 00:00, 2020-01-10 00:00)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 &amp;#34;Green Apple&amp;#34; &amp;#34;20.00&amp;#34; [2020-01-10 00:00, 2020-01-15 00:00)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 &amp;#34;Green Apple&amp;#34; &amp;#34;10.00&amp;#34; [2020-01-15 00:00, 2020-01-25 00:00)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 &amp;#34;Green Apple&amp;#34; &amp;#34;20.00&amp;#34; [2020-01-25 00:00, infinity)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 &amp;#34;Ornage&amp;#34; &amp;#34;10.00&amp;#34; [2020-01-20 00:00, 2020-01-23 00:00)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 &amp;#34;Orange&amp;#34; &amp;#34;10.00&amp;#34; [2020-01-23 00:00, 2020-01-25 00:00]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 &amp;#34;Orange&amp;#34; &amp;#34;20.00&amp;#34; [2020-01-25 00:00, 2020-01-29 00:00]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 &amp;#34;Blood Orange&amp;#34; &amp;#34;20.00&amp;#34; [2020-01-29 00:00, infinity]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Take a look at the &lt;code>validity&lt;/code> field in the new table and how it reflects
+to &lt;code>validity&lt;/code> fields old tables &lt;code>product_history&lt;/code> and &lt;code>price_history&lt;/code>.&lt;/p>
+&lt;h3 id="the-solution">The solution
+&lt;a href="#the-solution" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>So, you can make this work with a script that looks something like this&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">INSERT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">INTO&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">product_v2_history&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">amount&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">TSRANGE&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">GREATEST&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">LOWER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">LOWER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">)),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">CASE&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">WHEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;infinity&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">THEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">WHEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;infinity&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">THEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">ELSE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">LEAST&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">UPPER&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">END&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">FULL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">JOIN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">ON&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">price_id&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AND&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">&amp;amp;&amp;amp;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">product_history&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">validity&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The Postgres operator that helps us a bunch here is &lt;code>&amp;amp;&amp;amp;&lt;/code> which returns &lt;code>true&lt;/code> if
+two ranges given intersect.&lt;/p>
+&lt;blockquote>
+&lt;p>If you want to keep the name of one of the older tables and merge the data of
+the other history table into it, the simplest way to achieve this is to create
+a
+new history table anyway, and afterwards delete the old table and rename the
+new
+one.&lt;/p>
+&lt;/blockquote>
+&lt;p>When I first thought about how to do this, I imagined the solution will be much
+more trouble, but as I played around with test data, it turned out to be quite a
+simple one to do.
+If you want to play around with this, you can
+use &lt;a href="https://github.com/TopHatCroat/history-migration"
+target="_blank"
+rel="noopener">
+this repo
+&lt;/a>
+&lt;/p></description></item><item><title>Home .git</title><link>https://martinovic.blog/posts/home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/home-git/</guid><description>&lt;p>Git is an incredibly useful tool for a programmer, you use it to version the
+work you do and distribute it easily on other computers.
+But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various
+configurations and helper scripts I have in my path.
+So why not version those as well, it does allow you to get started in seconds in
+a very familiar environment on every new computer or even a server if you spend
+a lot of your time in SSH sessions.
+Bonus points for making it a public repository so others can take a look at your
+stuff and possibly get inspiration for improvements in their workflow, just make
+sure you don&amp;rsquo;t commit any private keys.&lt;/p>
+&lt;h1 id="the-setup">The setup
+&lt;a href="#the-setup" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Feel free to check out my home repository
+over &lt;a href="https://github.com/tophatcroat/home"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+. As you can see, it contains
+my &lt;code>.zshrc&lt;/code>, &lt;code>.vimrc&lt;/code> a &lt;code>bin&lt;/code> directory with various scripts, dotfiles and some
+other stuff I&amp;rsquo;ve curated while doing what I do best, fidgeting around a
+computer.&lt;/p>
+&lt;p>You can start your own version by simply initializing a Git repository in your
+home directory.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~ &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> git init
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now your directory will be full of stuff you probably don&amp;rsquo;t want to commit, like
+your downloads, pictures, private keys, shell history or what have you.
+So it&amp;rsquo;s important to set up the &lt;code>~/.gitignore&lt;/code> file immediately to stop you from
+accidentally committing stuff you didn&amp;rsquo;t want to.&lt;/p>
+&lt;p>Most importantly, you should ignore everything by default in
+your &lt;code>~/.gitignore&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Blacklist all in this folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/*
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Except for these&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.gitignore
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.gitconfig
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!.notes/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!bin/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">!Development/Sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will instruct Git to keep its hands off all files except for
+the &lt;code>.gitignore&lt;/code>, &lt;code>.gitconfig&lt;/code> and the files in the &lt;code>.notes&lt;/code>, &lt;code>bin&lt;/code>
+and &lt;code>Development/Sh&lt;/code> directories.
+So now, when you want to add any other file or directory you will require a
+force flag like so&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git add -f path_to_file
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And that&amp;rsquo;s basically all you need to do to set this up, it&amp;rsquo;s now up to you to
+add and commit all you want and push it to the Git hosting service of your
+choice.&lt;/p>
+&lt;h1 id="the-cloning">The cloning
+&lt;a href="#the-cloning" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>So now it&amp;rsquo;s time to clone this into your new home directory, but if you try
+cloning it using &lt;code>git clone&lt;/code> command it will complain that it can&amp;rsquo;t do that in
+an non empty directory.
+To get around this, you need to initialize it first then manually add the remote
+and finally force a checkout like so:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Create an empty git repository in your home folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Add the remote&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git remote add origin https://github.com/TopHatCroat/home
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Get the stuff from up there&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git fetch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Be careful! This will overwrite any local files existing on remote!&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git reset --hard origin/master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Running the last command will basically checkout all the files from the origin
+master branch and overwrite any files with the same path, so be careful if you
+already did some setup on the new machine.&lt;/p>
+&lt;p>And that&amp;rsquo;s it, you&amp;rsquo;ve saved yourself the bother of copying over the config
+files.
+The only thing that remains is to install the tools that use the configs you&amp;rsquo;ve
+just brought over.
+If you are feeling adventurous you could make a script that will do that for you
+like I did
+in &lt;a href="https://github.com/TopHatCroat/home/blob/master/Development/Sh/setup.sh"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+,
+but that is up to you.&lt;/p>
+&lt;p>&lt;em>EDIT:&lt;/em> As a response to this blog post others have pointed
+out &lt;a href="https://www.atlassian.com/git/tutorials/dotfiles"
+target="_blank"
+rel="noopener">
+another viable solution
+&lt;/a>
+,
+or by using &lt;a href="https://protesilaos.com/codelog/gnu-stow-dotfiles/"
+target="_blank"
+rel="noopener">
+GNU stow
+&lt;/a>
+,
+or &lt;a href="https://github.com/technicalpickles/homesick"
+target="_blank"
+rel="noopener">
+homesick
+&lt;/a>
+or &lt;a href="https://github.com/thoughtbot/rcm"
+target="_blank"
+rel="noopener">
+rcm
+&lt;/a>
+.
+Still, the solution presented here is the simplest to setup and understand and
+it does not depend on any other tool besides Git.
+All in all, there are a bunch of ways to do this and a lot more resources are
+available &lt;a href="https://dotfiles.github.io/"
+target="_blank"
+rel="noopener">
+here
+&lt;/a>
+.&lt;/p></description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
+&lt;a href="#kde-connect-useful-commands" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>So I&amp;rsquo;ve been using KDE Connect Android application for a while now due to its
+great integration KDE Plasma desktop.
+It allows you to send files over, share your clipboard, sync notifications and
+has other useful features like remote control using the phones screen as a
+touchpad or keyboard on your computer which is greatly appreciated feature for
+when you just couldn&amp;rsquo;t be asked to reach for your mouse to select the next
+YouTube video to play.&lt;/p>
+&lt;p>One feature which requires a bit of effort to get the most of it are commands.
+KDE Connect gives you an option to add named shortcuts for arbitrary commands to
+run on your computer from your phone!
+The simplest example of this would be to have a shortcut named &amp;ldquo;Suspend&amp;rdquo; and a
+command which states &lt;code>systemctl suspend&lt;/code>.
+You guessed it, it would put the computer to sleep.
+So, as you can imagine, this is quite a powerful feature.&lt;/p>
+&lt;p>These are some of the commands that I use:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">PC Suspend:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl &lt;span class="nb">suspend&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PC Lock:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PC Shutdown:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl poweroff
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Up:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;increase_volume&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Down:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;decrease_volume&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Volume Mute:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.kglobalaccel /component/kmix invokeShortcut &lt;span class="s2">&amp;#34;mute&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Screenshot Fullscreen:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">spectacle -b -f -o ~/Pictures/Screenshots/screenshot-&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%y-%m-%d_%T&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Screenshot current window:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">spectacle -b -a -o ~/Pictures/Screenshots/screenshot-&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%y-%m-%d_%T&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth On:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl power on
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Off:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl power off
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Connect A320:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl connect AB:AB:FA:2F:36:AB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Bluetooth Disconnect A320:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bluetoothctl disconnect AB:AB:FA:2F:36:AB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Up:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="k">$(&lt;/span>expr &lt;span class="k">$(&lt;/span>qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness&lt;span class="k">)&lt;/span> + 20&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Down:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="k">$(&lt;/span>expr &lt;span class="k">$(&lt;/span>qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness&lt;span class="k">)&lt;/span> - 20&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Max:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightnessMax
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Brightness Off:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement/Actions/BrightnessControl org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness &lt;span class="m">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&lt;strong>Tip:&lt;/strong> KDE Connect Android client sorts these commands alphabeticaly, so you
+can keep then grouped by starting them with the same text&lt;/p>
+&lt;/blockquote>
+&lt;p>In case you are wondering from where did I get these beautifully long commands,
+you can find them yourself using &lt;em>qdbus&lt;/em> or if you prefer GUI tools then there
+is &lt;em>qdbusviewer&lt;/em>.
+To be fair, it&amp;rsquo;s easier to use the GUI tool if you don&amp;rsquo;t know what you are
+looking for because these commands sometimes well hidden or duplicated.&lt;/p>
+&lt;p>In short, these are &lt;a href="https://www.freedesktop.org/wiki/Software/dbus/"
+target="_blank"
+rel="noopener">
+DBus
+&lt;/a>
+commands, &lt;em>DBus&lt;/em> is a software serial bus used to send messages from one
+application to another.
+Obviously, some of these commands are specific to KDE, so you would need to dig
+in to find their counterparts for Gnome or any other DE, but if you do, please
+do leave them in comments for others to use.&lt;/p></description></item><item><title>Hello world</title><link>https://martinovic.blog/posts/helloworld/</link><pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/helloworld/</guid><description>&lt;h3 id="well-hello-there">Well, hello there
+&lt;a href="#well-hello-there" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Welcome to my blog, this is going to be a place for me to share what and how I
+use in my work and at home. Stuff like mini tutorials, random rants and TILs of
+programming.&lt;/p>
+&lt;h4 id="stay-tuned">Stay tuned!
+&lt;a href="#stay-tuned" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h4></description></item></channel></rss>

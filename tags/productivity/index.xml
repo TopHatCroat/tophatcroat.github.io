@@ -1,1 +1,319 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>productivity on Antonio Martinović blog</title><link>https://martinovic.blog/tags/productivity/</link><description>Recent content in productivity on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>The problem Ever since my role changed from a software engineer to a engineering manager, I&amp;rsquo;ve been coding far less, my contributions were mostly in the form of code reviews and the occasional bug fix, and this has fueled a feeling of longing to actually write code again, to be able to create something from scratch. I&amp;rsquo;ve been thinking about this for a while. I&amp;rsquo;ve decided to try and do something about it.</description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/why-i-stopped-learning/</guid><description>5 years ago when I finished university I was learning something new every day, I was a software engineer and there was, what seemed to be an ocean of new shiny technology I wanted to learn about, things that make the application run faster, or UI look nicer, things that make the developer experience better. I moved from one company to another always jumping into a more interesting project, always being able to benefit from the things I’ve learnt before, finding niche and not so niche areas to improve the new code and the product I found myself working on.</description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/improvement-days/</guid><description>Improvement day(s) is an event in which each team member is given a chance to use the day(s) in whichever way they want, well as long as it’s something productive, where are not here for improving Tekken or Rocket League skills on the PlayStation. What we are about here is different things like learning something new, trying out a new library or tool and even hacking out a tiny proof of concept.</description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/try-to-take-it-easy/</guid><description>I think that we all want to be good people who try to be nice and help others even though the today’s world makes it seem like this is not the case. I try to make others’ lives easier by being respectful of their time and not asking for much of their attention because I know they are busy people with a bunch of stuff on their minds. But then I&amp;rsquo;ve found myself asking, why am I so often not giving the same treatment to myself.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>productivity on Antonio Martinović blog</title><link>https://martinovic.blog/tags/productivity/</link><description>Recent content in productivity on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
+&lt;a href="#the-problem" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>Ever since my role changed from a software engineer to a engineering manager,
+I&amp;rsquo;ve been coding far less, my contributions were mostly in the form of code
+reviews and the occasional bug fix, and this has fueled a feeling of longing to
+actually write code again, to be able to create something from scratch. I&amp;rsquo;ve
+been thinking about this for a while. I&amp;rsquo;ve decided to try and do something about
+it.&lt;/p>
+&lt;h1 id="the-solution">The solution
+&lt;a href="#the-solution" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>I&amp;rsquo;ve decided to try and do at least 1 commit every day, this is a small
+experiment to see if I can get back into the habit of coding, and to see if I
+can actually do it every day and to keep myself a bit more accountable, I&amp;rsquo;ll be
+posting weekly updates on my blog here. This comes from the personal learnings
+of the last few years that I have spent reading through various books. One of
+the most influential ones
+was &lt;a href="https://jamesclear.com/atomic-habits"
+target="_blank"
+rel="noopener">
+Atomic Habits
+&lt;/a>
+by James Clear, which
+I highly recommend, it&amp;rsquo;s a book that has a lot of actionable advice on how to
+build habits and how to break bad ones.&lt;/p>
+&lt;p>This brings me to this little personal experiment and a few of the rules I&amp;rsquo;ve
+set for myself:&lt;/p>
+&lt;ol>
+&lt;li>At least 1 commit every day&lt;/li>
+&lt;li>There is no minimum size for the commit, simple documentation changes are
+just fine&lt;/li>
+&lt;li>The commit can be in any project, personal or open source (here&amp;rsquo;s hopping I
+can get myself involved more in open source)&lt;/li>
+&lt;/ol>
+&lt;h1 id="so-what-did-i-do-this-week">So what did I do this week?
+&lt;a href="#so-what-did-i-do-this-week" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>It has mainly been about some demo projects utilising various new web
+application development technologies, well not new per se, but certainly new to
+me. These
+were &lt;a href="https://nextjs.org/"
+target="_blank"
+rel="noopener">
+NextJS
+&lt;/a>
+, &lt;a href="https://tailwindcss.com/"
+target="_blank"
+rel="noopener">
+Tailwind CSS
+&lt;/a>
+and &lt;a href="https://fly.io"
+target="_blank"
+rel="noopener">
+Fly.io
+&lt;/a>
+. Some CMSs like &lt;a href="https://strapi.io/"
+target="_blank"
+rel="noopener">
+Strapi
+&lt;/a>
+and &lt;a href="https://payloadcms.com/"
+target="_blank"
+rel="noopener">
+Payload
+&lt;/a>
+, which might or might not feed into
+another project in the future. I&amp;rsquo;ve also been investigating a new auth
+system &lt;a href="https://zitadel.com"
+target="_blank"
+rel="noopener">
+Zitadel
+&lt;/a>
+which is showing a lot of promise for a
+small new startup. And I&amp;rsquo;ve also updated the Hugo
+theme &lt;a href="https://github.com/TopHatCroat/izi-hugo-theme/"
+target="_blank"
+rel="noopener">
+izi
+&lt;/a>
+used by this blog by
+doing some RSS bug fixes.&lt;/p>
+&lt;p>That&amp;rsquo;s it for this week, it&amp;rsquo;s not much but it&amp;rsquo;s honest work. Looking forward to
+giving a week 2 update.&lt;/p></description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/why-i-stopped-learning/</guid><description>&lt;p>5 years ago when I finished university I was learning something new every day, I
+was a software engineer and there was, what seemed to be an ocean of new shiny
+technology I wanted to learn about, things that make the application run faster,
+or UI look nicer, things that make the developer experience better.
+I moved from one company to another always jumping into a more interesting
+project, always being able to benefit from the things I’ve learnt before,
+finding niche and not so niche areas to improve the new code and the product I
+found myself working on.&lt;/p>
+&lt;p>And it worked for a while, and then I got an offer to lead a team of developers,
+I took it, of course, because that’s what your next career step is, right?
+Right?
+No, it’s really not, but I didn’t know that at the time.
+Anyway, this is a big change, we are not talking about another programming
+language or another framework here, it’s a completely different set of skills,
+and more importantly, values that I need to live now.&lt;/p>
+&lt;h2 id="how-it-happened">How it happened
+&lt;a href="#how-it-happened" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>This clarity of knowing exactly what I need to learn next, which was in plain
+sight at the start of one’s career, and sense of progress is exactly what
+motivated me and helped me greatly in achieving learning goals.
+However, when I moved into a more management focused role, it was the first time
+in my life that I didn&amp;rsquo;t know exactly what to learn about next, I had very
+little people experience and no idea of what I need to know about to become a
+good team lead or engineering manager or however you like to call it.&lt;/p>
+&lt;p>Not having a well defined goal, makes every self-improvement attempt much less
+effective and enjoyable, it starts making it feel like a chore, something you
+have to do to achieve something, but you are not sure exactly what, or are you
+even going in the right direction.
+If this persists a person will slowly invest less and less time into learning,
+probably the most evil thing about it is that it creeps in slowly, which makes
+it hard to notice, it’s something to do with frogs.&lt;/p>
+&lt;p>What helped me realise that this was happening to me was that I found myself
+struggling to focus, I would rarely get in the flow, and I started looking
+forward to not doing anything on the weekend a bit more than before.
+Don’t get me wrong, not doing anything over the weekend is amazing and I
+recommend it wholeheartedly, but I knew that it wasn&amp;rsquo;t who I was every weekend.&lt;/p>
+&lt;h2 id="regaining-my-drive">Regaining My Drive
+&lt;a href="#regaining-my-drive" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>Getting back on track is not an easy process and, much like it went away,
+getting back takes time.
+It requires self-reflection to identify the source of problem.
+What often seems to be the case is that the cheese has been moved, as stated in
+the famous
+book &lt;a href="https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese"
+target="_blank"
+rel="noopener">
+Who Moved My Chese
+&lt;/a>
+,
+and we don&amp;rsquo;t realise it.
+This is what happened to me, it can come in different forms to each person, for
+me it was that even though my job description changed by quite a bit, I did not
+adapt my learning direction and just kept learning as if what I am doing is
+still individual contribution, I saw that I needed to change that.&lt;/p>
+&lt;p>Trying to optimise your learning path, like picking the best resources only, is
+not something you should be overthinking, it’s a sort
+of &lt;a href="https://en.wikipedia.org/wiki/Bin_packing_problem"
+target="_blank"
+rel="noopener">
+bin packing problem
+&lt;/a>
+,
+but with time and it’s virtually impossible to have an optimal progression path.
+What is important is that what you learn you can immediately try out, not only
+will this ensure the lessons stick, but it will also give a huge motivation
+boost to keep at it.&lt;/p>
+&lt;p>To conclude, what I changed was I realised the immense value of the new position
+I found myself in being able to do much more with a team then I can do on my on,
+in hindsight, I can’t believe I didn&amp;rsquo;t see it sooner.
+Some take a more drastic approach, I know a person who quit a very well paid job
+to instead spend a year learning ML and AI, simply because he was not feeling
+motivated to work and he realised he didn’t want his whole life to feel like a
+chore because of it.&lt;/p>
+&lt;p>To conclude, if you are not feeling motivated to keep learning about whatever it
+is you do, you need to change something, either your approach, or what you do.&lt;/p></description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/improvement-days/</guid><description>&lt;p>Improvement day(s) is an event in which each team member is given a chance to
+use the day(s) in whichever way they want, well as long as it’s something
+productive, where are not here for improving Tekken or Rocket League skills on
+the PlayStation.
+What we are about here is different things like learning something new, trying
+out a new library or tool and even hacking out a tiny proof of concept.
+In the company I work at, we’ve been doing this for more than 2 years already,
+and I’ve seen it become one of the things everybody is looking forward to, it
+has helped in promoting innovation and creativity, learning and cooperation as
+well as getting across the message that constant experimentation and improvement
+is part of our culture, and we support it by having dedicated time for it.&lt;/p>
+&lt;h3 id="how-it-works">How it works?
+&lt;a href="#how-it-works" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>The reasoning behind something like this is that we want to give everyone an
+opportunity to do something completely different, without feeling pressure to
+succeed, the only expectation is learning and sharing that knowledge with others
+afterwards.
+The process looks like this, everyone who wants to participate comes up with
+ideas for improvement and writes them down in a public shared space, it
+can be an idea that they want to work on or for someone else to take up.
+Others can then give their input on the idea or even suggest that they join
+forces and work on it together.
+Then before we kick the improvement day(s) off, everyone participating gets
+together and shares with others what they will be doing.
+The end of this event is another meeting called “Improvement demo” where we
+present the outcomes, however successful they may be.&lt;/p>
+&lt;p>It’s important to stress that it is completely OK not to participate, maybe
+whatever the person is working on as part of daily business at the moment is
+even more interesting, and also that it’s OK not
+to achieve what was initially planned, it’s a very much a defining part of life
+that it doesn&amp;rsquo;t always go according to the plan and that’s fine, this is an
+opportunity to learn something from it, maybe that PoC wasn&amp;rsquo;t as simple as
+originally thought, or, more often, the idea was a bit too ambitious from the
+start.
+This is one of the reasons why the initial meeting is there, it gives another
+chance for more senior colleagues to add their suggestions and raise any
+concerns.&lt;/p>
+&lt;h3 id="when-it-goes-right">When it goes right
+&lt;a href="#when-it-goes-right" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>In the past I’ve seen some really awesome things come out of it like
+improvements in the CI/CD pipeline, developer experience, web app loading time
+reduction, ease of onboarding new team members, but also sometimes it shows the
+benefits of doing things in a different and new way and this is then brought
+into the regular sprint for any effort necessary to generally apply it.
+There are also benefits that are not so visible, like facilitating discussion,
+bouncing of ideas and generally advocating the spirit of always trying new
+things with the aim of doing it better.&lt;/p>
+&lt;h3 id="things-to-watch-out-for">Things to watch out for
+&lt;a href="#things-to-watch-out-for" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Improvement days are not about fixing technical debt or implementing purely
+technical ideas that should otherwise be done as part of regular work, it should
+not be used as a go to for all kinds of experimentation especially when those
+are bigger things that can’t be done by a single person.
+Another issue that is much more difficult to notice is that it could lead to
+individuals feeling a bit unhappy after one or more of these which, in their
+eyes, ended up as a “failure” because they did not achieve the goal, or if they
+look at another’s “success” with a bit of an envious aftertaste.
+I’ve put those words in quotes because at all times, whatever the end result is,
+something has been learnt, and learning doesn&amp;rsquo;t always bring what we expect it
+to.
+So you might say, maybe better call it “Learning days”, but I don’t personally
+like that because learning happens every day during usual work, not just on
+certain days.&lt;/p>
+&lt;h3 id="final-thoughts">Final thoughts
+&lt;a href="#final-thoughts" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>I hope this post gave you an inspiration to try and push for something like this
+at your own workplace.
+The other companies that do something like this only do it with the engineering
+department, but I feel like this is something that could be useful in other
+departments as well since all have complex processes that could benefit from a
+fresh new improvement, but I have yet to find instances where the company does
+this more broadly.&lt;/p></description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/try-to-take-it-easy/</guid><description>&lt;p>I think that we all want to be good people who try to be nice and help others
+even though the today’s world makes it seem like this is not the case.
+I try to make others’ lives easier by being respectful of their time and not
+asking for much of their attention because I know they are busy people with a
+bunch of stuff on their minds.
+But then I&amp;rsquo;ve found myself asking, why am I so often not giving the same
+treatment to myself.&lt;/p>
+&lt;p>Speaking out of my own previous experience, my plans and aspirations were very
+ambitious, but I did not reach the goals that I’ve set for myself, I thought
+it&amp;rsquo;s because I’m lazy, or because I’m not good enough, but that&amp;rsquo;s not it.
+No one wants to work too much, and working too long tends to produce very
+diminishing returns as the focus and effectiveness of my work slips, my
+creativity suffers and, in my opinion, along with time, creativity my most
+valuable resource as an individual.&lt;/p>
+&lt;p>What helped me arrive to this conclusion was what I read in a book
+&lt;a href="https://www.goodreads.com/book/show/6452796-drive"
+target="_blank"
+rel="noopener">
+Drive by Daniel H. Pink
+&lt;/a>
+which talks about motivation and how to create an environment that nurtures it,
+mostly from an organisation’s perspective, but it can be applied to leading
+ourselves as well.
+It&amp;rsquo;s an excellent and concise book which I wholeheartedly recommend.&lt;/p>
+&lt;p>As much as we would like to be incredibly efficient and productive, humans are
+simply not, and the solution is definitely not to push are selves to the point
+of burning out, you are not a lesser person for allowing yourself to take it a
+bit easier.
+That&amp;rsquo;s why I started reducing the amount of things on my plate and I think you
+should consider it as well. There are real benefits to taking the time to rest,
+recharge and refocus and there are others
+&lt;a href="https://www.cnbc.com/2023/01/06/how-slowing-down-at-work-can-help-you-get-more-done.html"
+target="_blank"
+rel="noopener">
+who agree with this
+&lt;/a>
+.&lt;/p>
+&lt;p>This definitely doesn&amp;rsquo;t mean reducing my ultimate aspirations or accepting that
+I will not achieve what I want, on the contrary, this means to actually allow
+myself to focus on the few things I have happening in my life currently so that
+I ensure I give it my full attention and, more importantly, finish those things
+before moving on to the next one (or quitting because I realise I don&amp;rsquo;t actually
+want it that much, but don&amp;rsquo;t use it as an excuse).
+It is even not counter-intuitive once I understood that one of the biggest time
+wasters I have, and I have more than enough of those, is the constant context
+switching that just disappears when there is fewer things going on at once.&lt;/p>
+&lt;p>There is a bazillion of people wrote and talked about this topic on the
+internet, good and bad (like this blog post)that there is a lot of other
+resources you can find on how taking a lighter approach ultimately allows us to
+achieve bigger results.
+If you want to see more of it I recommend this excellent talk with plenty of
+other good
+ideas: &lt;a href="https://youtu.be/FS1mnISoG7U"
+target="_blank"
+rel="noopener">
+Scaling Yourself by Scott Hanselman
+&lt;/a>
+&lt;/p></description></item></channel></rss>
