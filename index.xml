@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 2: Slower second week but still building pace</title><link>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</guid><description>&lt;p>The second week started of slow with some very small commits, it was about
+fixing up the Zitadel demo I started, which, to be honest, was only broken
+because I didn&amp;rsquo;t read the documentation properly. Ahh yes, the famous dilemma,
+should I spend 3 hours with try different random things or should I spend 30
+minutes reading the docs? I think we all know the answer to that one. RTFM, but
+hey, at least I got to learn a bit more about the Zitadel API.&lt;/p>
+&lt;p>Next up were some tiny changes to RSS feed on this bug, there was some Mastodon
+about whether to keep the full content of the post in the feed or just the
+summary, it ended up being that most people want the full thing, so I&amp;rsquo;ve added
+that in.&lt;/p>
+&lt;p>The last thing I worked on was on the &lt;a href="https://payloadcms.com/"
+target="_blank"
+rel="noopener">
+Payload
+&lt;/a>
+demo,
+I&amp;rsquo;ve added a few collections and generated fixture or database see to make
+development easier, and I&amp;rsquo;ve started adding some actually frontend to it, again,
+based on &lt;a href="https://nextjs.org/"
+target="_blank"
+rel="noopener">
+NextJS
+&lt;/a>
+and &lt;a href="https://tailwindcss.com/"
+target="_blank"
+rel="noopener">
+Tailwind CSS
+&lt;/a>
+, good old web development.&lt;/p></description></item><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
 &lt;a href="#the-problem" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
