@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>self-improvement on Antonio Martinović blog</title><link>https://martinovic.blog/tags/self-improvement/</link><description>Recent content in self-improvement on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/self-improvement/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 2: Slower second week but still building pace</title><link>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</guid><description>&lt;p>The second week started of slow with some very small commits, it was about
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>self-improvement on Antonio Martinović blog</title><link>https://martinovic.blog/tags/self-improvement/</link><description>Recent content in self-improvement on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2023 by Antonio Martinović</copyright><lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/self-improvement/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 3: Picking up again</title><link>https://martinovic.blog/posts/week-3-picking-up-again/</link><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-3-picking-up-again/</guid><description>&lt;p>The third week picked up the pace a bit, the challenge was balancing it with
+other things in my life, as I&amp;rsquo;ve recently also picked up running. There were a
+few things I found myself doing that made it easier though.&lt;/p>
+&lt;h3 id="knowing-what-will-be-the-first-thing-for-tomorrow">Knowing what will be the first thing for tomorrow
+&lt;a href="#knowing-what-will-be-the-first-thing-for-tomorrow" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>This has worked nicely for me in the past as well, and it&amp;rsquo;s where I will
+deliberately leave something unfinished, so that I know what I will be working
+on
+the next day. This has the added benefit of making it easier to start doing it
+as you can just get straight into it.&lt;/p>
+&lt;h3 id="even-the-smallest-things-count">Even the smallest things count
+&lt;a href="#even-the-smallest-things-count" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Back in my &lt;a href="https://martinovic.blog/posts/week-1-consistent-coding/"
+target="_blank"
+rel="noopener">
+Week 1
+&lt;/a>
+I
+mentioned that &amp;ldquo;There is no minimum size for the commit, simple documentation
+changes are just fine&amp;rdquo;, and this has been a great hack for me, actually. I&amp;rsquo;ve
+found that even the smallest changes, like fixing a typo, or adding a comment,
+or even just a commit message, can be enough to get me into the flow of things,
+and then I can continue working on something else.&lt;/p>
+&lt;h3 id="having-a-list-of-things-to-do">Having a list of things to do
+&lt;a href="#having-a-list-of-things-to-do" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h3>
+&lt;p>Well this one is obvious, JIRA wouldn&amp;rsquo;t be such an expensive piece of software
+if having lists of things wasn&amp;rsquo;t a good productivity boost, but even for small
+private projects, I&amp;rsquo;ve found that having a prioritised list of things to do is a
+good way to keep myself on track and not get distracted by other things.&lt;/p>
+&lt;h2 id="a-lot-of-time-spent-on-reading">A lot of time spent on reading
+&lt;a href="#a-lot-of-time-spent-on-reading" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h2>
+&lt;p>This week I was also spending quite a bit of time investigating ChatGPT and
+other AI tools, there are a lot of legitimate usecases and I feel like we have
+only just started to comprehend what we can do with them, but for my self, just
+to start off, &lt;a href="https://platform.openai.com/docs/introduction"
+target="_blank"
+rel="noopener">
+Open AI docs
+&lt;/a>
+have
+been a pretty nice read. They&amp;rsquo;ve also recently unveiled
+their &lt;a href="https://openai.com/blog/chatgpt-plugins#code-interpreter"
+target="_blank"
+rel="noopener">
+Code interpreter
+&lt;/a>
+feature, which I&amp;rsquo;m looking forward to trying out. I&amp;rsquo;ve also been reading &lt;a href="https://en.wikipedia.org/wiki/Superforecasting:_The_Art_and_Science_of_Prediction"
+target="_blank"
+rel="noopener">
+Superforecasting: The Art and Science of Prediction
+&lt;/a>
+by Philip E. Tetlock and Dan Gardner, which has been a pretty interesting read so far, it has heavy &lt;a href="https://en.wikipedia.org/wiki/Foundation_series"
+target="_blank"
+rel="noopener">
+The Foundation
+&lt;/a>
+vibes.&lt;/p></description></item><item><title>Week 2: Slower second week but still building pace</title><link>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</guid><description>&lt;p>The second week started of slow with some very small commits, it was about
 fixing up the Zitadel demo I started, which, to be honest, was only broken
 because I didn&amp;rsquo;t read the documentation properly. Ahh yes, the famous dilemma,
 should I spend 3 hours with try different random things or should I spend 30
