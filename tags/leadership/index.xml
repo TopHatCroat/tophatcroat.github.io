@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leadership on Antonio Martinović blog</title><link>https://martinovic.blog/tags/leadership/</link><description>Recent content in leadership on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2024 by Antonio Martinović</copyright><lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/leadership/index.xml" rel="self" type="application/rss+xml"/><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leadership on Antonio Martinović blog</title><link>https://martinovic.blog/tags/leadership/</link><description>Recent content in leadership on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2024 by Antonio Martinović</copyright><lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/leadership/index.xml" rel="self" type="application/rss+xml"/><item><title>How I do meetings as a senior engineer</title><link>https://martinovic.blog/posts/how-i-do-meetings-as-senior-engineer/</link><pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/how-i-do-meetings-as-senior-engineer/</guid><description>&lt;p>If you are in the top end of seniority in your team or company, either in
+technical or domain areas, chances are you will quickly understand the issue or
+a new feature your team is presented with and you’ll also have a decent clue on
+how to approach it thanks to your technical knowledge of the system and
+familiarity of the product. This is great and extremely valuable to the
+organisation, but let’s discuss what it means for your team as it might not
+always be best to immediately declare the solution that seems so obvious to you.&lt;/p>
+&lt;p>I’ve been through this in the past, the product manager sets up a meeting to and
+presents the new idea or problem to be solved, upon hearing it I immediately
+imagine a possible solution and blurt out the first thing that comes to mind,
+mostly making sense, this get’s followed up with others in the meeting listening
+and agreeing to most of what was said, there would always be a few questions or
+even a correction coming from someone else on the team and those I would also
+quickly follow up with a speedy solution of whatever came to mind first. Great,
+now the team know exactly how the problem will be solved and I’ve successfully
+fulfilled my role. Right?&lt;/p>
+&lt;p>By being the first to speak, you rid the more junior members of the team a
+chance to practice their critical thinking and reinforced the idea that they are
+the followers, not the future leaders. Even though the less experiences members
+might be reluctant to speak out due to not understanding the problem or self
+doubt. Even though junior engineers might spit out a solution that would not
+ever work, they will not learn to change and improve by always being the ones
+who listen. And even if they do keep silent on meetings, I consider it part of
+my role to ask them for their opinion and, if needed, guide them with follow up
+questions.&lt;/p>
+&lt;p>Getting the chance to hear how others are thinking, what assumptions they make
+and what conclusions they arrive at is probably the best learning opportunity
+from these meetings for you. A large part of progressing as senior is about
+understanding others and communicating thoughts effectively, so exposing
+yourself to ideas of others and trying to understand what they are thinking
+exactly is one of the best ways to grow at the senior level, you are expected to
+be a great communicator at this stage in your career. This is one of the most
+fundamental mindset shifts when moving to a more leadership oriented role and
+it’s often one of the most difficult ones, I know it was for me.&lt;/p></description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
 &lt;a href="#the-biggest-challenge-with-new-leaders-is-letting-go" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
