@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2024 by Antonio Martinović</copyright><lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Maximal effort, minimal impact: How I learned what engineering guidelines should be like</title><link>https://martinovic.blog/posts/maximal-effort-minimal-impact-how-i-learned-what-engineering-guidelines-should-be-like/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/maximal-effort-minimal-impact-how-i-learned-what-engineering-guidelines-should-be-like/</guid><description>&lt;p>At a point in my past I’ve found myself working in a somewhat successful
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Antonio Martinović blog</title><link>https://martinovic.blog/</link><description>Recent content on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2024 by Antonio Martinović</copyright><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
+kind of benefits can we derive from them outside of just fun and relaxation.
+Usually I get flashbacks to childhood arguments with my parents excusing my late
+night gaming sessions and repeating myself plenty how it’s improving my hand eye
+coordination, teaching me about other cultures and how there are pro players
+earning money on this stuff. Yeah, you can sense a bit of sarcasm there because
+the I could have made my point way more convincing with a bit more elaboration,
+but then again, also with a much more life experience to actually notice the
+effects.&lt;/p>
+&lt;p>The reasoning I hear from other people is that gaming is wasting the time you
+could spend doing productive things, whatever that might be, and yeah, I’m sure
+you could find more productive ways of spending your time than gaming, there are
+plethora of ways. I did try to avoid gaming at some point, and it worked for a
+while, but I didn’t replace it with some other form of relaxation and soon it
+simply got replaced with binging YouTube or Netflix. If you are a sort of person
+that can go without a release valve then you can stop reading this article and
+go do something smarter.&lt;/p>
+&lt;p>I’m not a video game designer by any means, but I do notice when the designers
+manage to achieve a great player progression curve and difficulty balance that
+is fair to the player and respectful of their time and effort. Every time I get
+beat up in a video game and immediately feel the need to improve and go at it
+again, I get reminded of how important that mindset is in the real world as
+well. Failures are our best learning experiences and we feel much better about
+ourselves when we keep growing compared to ourselves in the past.&lt;/p>
+&lt;p>So as long as you gaming habit is not so addictive that it tangibly negatively
+impacts other aspects of your live, don’t feel about about other people saying
+gaming is a waste of time, because if it makes you feel better, and teaches you
+a thing or two, it’s a great source of motivation.&lt;/p></description></item><item><title>Maximal effort, minimal impact: How I learned what engineering guidelines should be like</title><link>https://martinovic.blog/posts/2024-10-13-maximal-effort-minimal-impact-how-i-learned-what-engineering-guidelines-should-be-like/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-10-13-maximal-effort-minimal-impact-how-i-learned-what-engineering-guidelines-should-be-like/</guid><description>&lt;p>At a point in my past I’ve found myself working in a somewhat successful
 startup, it seemed successful because we were hiring more and more engineers and
 the scope of work and number of teams kept steadily increasing. Somewhere in the
 middle I realised our engineering staff needed a set of engineering principles
@@ -39,7 +66,7 @@ aware.&lt;/p>
 had forgotten that people are much more likely to follow a set of adaptable
 guidelines than an encyclopedia, the rules must be simple and adaptable so that
 people can actually make decisions in real time regardless of the situation they
-face. Your mission is to steer not to control.&lt;/p></description></item><item><title>How I do meetings as a senior engineer</title><link>https://martinovic.blog/posts/how-i-do-meetings-as-senior-engineer/</link><pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/how-i-do-meetings-as-senior-engineer/</guid><description>&lt;p>If you are in the top end of seniority in your team or company, either in
+face. Your mission is to steer not to control.&lt;/p></description></item><item><title>How I do meetings as a senior engineer</title><link>https://martinovic.blog/posts/2024-09-19-how-i-do-meetings-as-senior-engineer/</link><pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-09-19-how-i-do-meetings-as-senior-engineer/</guid><description>&lt;p>If you are in the top end of seniority in your team or company, either in
 technical or domain areas, chances are you will quickly understand the issue or
 a new feature your team is presented with and you’ll also have a decent clue on
 how to approach it thanks to your technical knowledge of the system and
@@ -72,7 +99,7 @@ yourself to ideas of others and trying to understand what they are thinking
 exactly is one of the best ways to grow at the senior level, you are expected to
 be a great communicator at this stage in your career. This is one of the most
 fundamental mindset shifts when moving to a more leadership oriented role and
-it’s often one of the most difficult ones, I know it was for me.&lt;/p></description></item><item><title>Yet another project I will never complete</title><link>https://martinovic.blog/posts/yet-another-project-i-will-never-complete/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/yet-another-project-i-will-never-complete/</guid><description>&lt;p>Few weeks ago I had an idea for an app, so naturally I started searching for a
+it’s often one of the most difficult ones, I know it was for me.&lt;/p></description></item><item><title>Yet another project I will never complete</title><link>https://martinovic.blog/posts/2024-06-18-yet-another-project-i-will-never-complete/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-06-18-yet-another-project-i-will-never-complete/</guid><description>&lt;p>Few weeks ago I had an idea for an app, so naturally I started searching for a
 similar one on Google and I didn’t find anything, I even spoke with some of my
 friends about it and they didn’t mention anything that they were aware of
 anything similar, so I got excited and started planning my efforts in developing
@@ -120,7 +147,7 @@ into planning out my day in the morning, this is a more general advice, but it
 worked great on this project as well.&lt;/p>
 &lt;p>There we go, even though the pile of dead projects has grown by one more, I’m
 feeling good about the things I’ve learned so I’m still happy about it all in
-general. Next project might fare a bit better.&lt;/p></description></item><item><title>Book review: Humble Pi by Matt Parker</title><link>https://martinovic.blog/posts/book-review-humble-pi/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/book-review-humble-pi/</guid><description>&lt;p>I quite liked to book, it has a lot of interesting facts that I didn’t know
+general. Next project might fare a bit better.&lt;/p></description></item><item><title>Book review: Humble Pi by Matt Parker</title><link>https://martinovic.blog/posts/2024-05-09-book-review-humble-pi/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-05-09-book-review-humble-pi/</guid><description>&lt;p>I quite liked to book, it has a lot of interesting facts that I didn’t know
 about, but it also had a lot of facts I already did know about especially
 computing related. I’m not feeling particularly smug about that because those
 that I did know I learned mostly from YouTube videos and some of those were by
@@ -141,7 +168,7 @@ points out multiple instances when mistakes cost lives due to, among others,
 faulty medical equipment, poorly designed buildings or load baring
 miscalculations, and we seem to be in a rush to help expand that list. Thinking
 of everything Boeing related or so many car manufacturers issues recalls like
-Tesla, GM, Toyota, Nissan and more.&lt;/p></description></item><item><title>Week 3: Picking up again</title><link>https://martinovic.blog/posts/week-3-picking-up-again/</link><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-3-picking-up-again/</guid><description>&lt;p>The third week picked up the pace a bit, the challenge was balancing it with
+Tesla, GM, Toyota, Nissan and more.&lt;/p></description></item><item><title>Week 3: Picking up again</title><link>https://martinovic.blog/posts/2023-07-09-week-3-picking-up-again/</link><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-07-09-week-3-picking-up-again/</guid><description>&lt;p>The third week picked up the pace a bit, the challenge was balancing it with
 other things in my life, as I&amp;rsquo;ve recently also picked up running. There were a
 few things I found myself doing that made it easier though.&lt;/p>
 &lt;h3 id="knowing-what-will-be-the-first-thing-for-tomorrow">Knowing what will be the first thing for tomorrow
@@ -213,7 +240,7 @@ target="_blank"
 rel="noopener">
 The Foundation
 &lt;/a>
-vibes.&lt;/p></description></item><item><title>Week 2: Slower second week but still building pace</title><link>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-2-slowdown-but-still-strong/</guid><description>&lt;p>The second week started of slow with some very small commits, it was about
+vibes.&lt;/p></description></item><item><title>Week 2: Slower second week but still building pace</title><link>https://martinovic.blog/posts/2023-07-02-week-2-slowdown-but-still-strong/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-07-02-week-2-slowdown-but-still-strong/</guid><description>&lt;p>The second week started of slow with some very small commits, it was about
 fixing up the Zitadel demo I started, which, to be honest, was only broken
 because I didn&amp;rsquo;t read the documentation properly. Ahh yes, the famous dilemma,
 should I spend 3 hours with try different random things or should I spend 30
@@ -241,7 +268,7 @@ target="_blank"
 rel="noopener">
 Tailwind CSS
 &lt;/a>
-, good old web development.&lt;/p></description></item><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
+, good old web development.&lt;/p></description></item><item><title>Week 1: Back to coding</title><link>https://martinovic.blog/posts/2023-06-25-week-1-consistent-coding/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-06-25-week-1-consistent-coding/</guid><description>&lt;h1 id="the-problem">The problem
 &lt;a href="#the-problem" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
@@ -333,7 +360,7 @@ izi
 used by this blog by
 doing some RSS bug fixes.&lt;/p>
 &lt;p>That&amp;rsquo;s it for this week, it&amp;rsquo;s not much but it&amp;rsquo;s honest work. Looking forward to
-giving a week 2 update.&lt;/p></description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
+giving a week 2 update.&lt;/p></description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
 &lt;a href="#the-biggest-challenge-with-new-leaders-is-letting-go" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
@@ -362,7 +389,7 @@ noticed and want to solve the big problems and if they don’t get the chance,
 they will either leave, or worse, stop striving for more due to a lack of
 motivation. Ask them directly how to solve a problem, it’s mutually beneficial,
 and it&amp;rsquo;s supposed to be genuine, not tricking others into a false sense
-responsibility, it won&amp;rsquo;t work if you make a ceremony out of it.&lt;/p></description></item><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/staff-engineer-commentary/</guid><description>&lt;p>I’ve always found the job description of a staff engineer to be a particularly
+responsibility, it won&amp;rsquo;t work if you make a ceremony out of it.&lt;/p></description></item><item><title>Book commentary - Will Larson: Staff Engineer</title><link>https://martinovic.blog/posts/2023-06-18-staff-engineer-commentary/</link><pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-06-18-staff-engineer-commentary/</guid><description>&lt;p>I’ve always found the job description of a staff engineer to be a particularly
 compelling one, it requires a lot of technical, product and organisational
 knowledge, but it also needs a set of hard and soft skills to actually utilise
 this knowledge, without all of these combined the effect that can be achieved in
@@ -419,7 +446,7 @@ facilitating the discovery of a solution with input from others which gets
 increasingly more important as you organisation grows. The amount of small bits
 of wisdom and references to other books and blogs makes this book also an
 excellent guide to the staff engineer path over a longer period, it is certainly
-a book I will keep coming back to.&lt;/p></description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/no-dumb-questions/</guid><description>&lt;h1 id="there-are-no-dumb-questions-only-dumb-answers">There are no dumb questions, only dumb answers
+a book I will keep coming back to.&lt;/p></description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</guid><description>&lt;h1 id="there-are-no-dumb-questions-only-dumb-answers">There are no dumb questions, only dumb answers
 &lt;a href="#there-are-no-dumb-questions-only-dumb-answers" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
@@ -496,7 +523,7 @@ that’s fine (this is a good indication that it should be documented).
 With that said, if you asked your colleague a question and they’ve invested time
 and effort to answer you, then you should invest the effort to remember what was
 said, or even better, write it down, because it can get irritating to be asked
-the same question multiple times, it could be interpreted as disrespectful even.&lt;/p></description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/why-i-stopped-learning/</guid><description>&lt;p>5 years ago when I finished university I was learning something new every day, I
+the same question multiple times, it could be interpreted as disrespectful even.&lt;/p></description></item><item><title>Why I stopped learning</title><link>https://martinovic.blog/posts/2023-03-24-why-i-stopped-learning/</link><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-03-24-why-i-stopped-learning/</guid><description>&lt;p>5 years ago when I finished university I was learning something new every day, I
 was a software engineer and there was, what seemed to be an ocean of new shiny
 technology I wanted to learn about, things that make the application run faster,
 or UI look nicer, things that make the developer experience better.
@@ -578,7 +605,7 @@ to instead spend a year learning ML and AI, simply because he was not feeling
 motivated to work and he realised he didn’t want his whole life to feel like a
 chore because of it.&lt;/p>
 &lt;p>To conclude, if you are not feeling motivated to keep learning about whatever it
-is you do, you need to change something, either your approach, or what you do.&lt;/p></description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/improvement-days/</guid><description>&lt;p>Improvement day(s) is an event in which each team member is given a chance to
+is you do, you need to change something, either your approach, or what you do.&lt;/p></description></item><item><title>Improvement days</title><link>https://martinovic.blog/posts/2023-02-15-improvement-days/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-02-15-improvement-days/</guid><description>&lt;p>Improvement day(s) is an event in which each team member is given a chance to
 use the day(s) in whichever way they want, well as long as it’s something
 productive, where are not here for improving Tekken or Rocket League skills on
 the PlayStation.
@@ -665,7 +692,7 @@ The other companies that do something like this only do it with the engineering
 department, but I feel like this is something that could be useful in other
 departments as well since all have complex processes that could benefit from a
 fresh new improvement, but I have yet to find instances where the company does
-this more broadly.&lt;/p></description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/try-to-take-it-easy/</guid><description>&lt;p>I think that we all want to be good people who try to be nice and help others
+this more broadly.&lt;/p></description></item><item><title>Try to take it easy</title><link>https://martinovic.blog/posts/2023-01-06-try-to-take-it-easy/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-01-06-try-to-take-it-easy/</guid><description>&lt;p>I think that we all want to be good people who try to be nice and help others
 even though the today’s world makes it seem like this is not the case.
 I try to make others’ lives easier by being respectful of their time and not
 asking for much of their attention because I know they are busy people with a
@@ -722,7 +749,7 @@ target="_blank"
 rel="noopener">
 Scaling Yourself by Scott Hanselman
 &lt;/a>
-&lt;/p></description></item><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/circle-ci-elasticsearh/</guid><description>&lt;h3 id="this-is-going-to-be-a-short-one">This is going to be a short one
+&lt;/p></description></item><item><title>Setup Elasticsearch on CircleCI</title><link>https://martinovic.blog/posts/2021-05-03-circle-ci-elasticsearh/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2021-05-03-circle-ci-elasticsearh/</guid><description>&lt;h3 id="this-is-going-to-be-a-short-one">This is going to be a short one
 &lt;a href="#this-is-going-to-be-a-short-one" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
@@ -786,7 +813,7 @@ accordingly.&lt;/p>
 the start up of it, because it would be
 possible for your tests to start befor ES is ready.
 &lt;em>dockerize&lt;/em> comes preinstalled in standard CircleCI base images.&lt;/p>
-&lt;p>And that&amp;rsquo;s it, happy testing.&lt;/p></description></item><item><title>Merge Two History tables</title><link>https://martinovic.blog/posts/merge-history-table-migration/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/merge-history-table-migration/</guid><description>&lt;p>History tables hold the past state of an entity by saving all the values of the
+&lt;p>And that&amp;rsquo;s it, happy testing.&lt;/p></description></item><item><title>Merge Two History tables</title><link>https://martinovic.blog/posts/2020-04-22-merge-history-table-migration/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2020-04-22-merge-history-table-migration/</guid><description>&lt;p>History tables hold the past state of an entity by saving all the values of the
 original entity along with a date and time range field that specify when these
 values were valid, I will refer to this field as &lt;em>&amp;ldquo;validity&amp;rdquo;&lt;/em>.
 This pattern is used when you need to remember the changes an entity went
@@ -924,7 +951,7 @@ target="_blank"
 rel="noopener">
 this repo
 &lt;/a>
-&lt;/p></description></item><item><title>Home .git</title><link>https://martinovic.blog/posts/home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/home-git/</guid><description>&lt;p>Git is an incredibly useful tool for a programmer, you use it to version the
+&lt;/p></description></item><item><title>Home .git</title><link>https://martinovic.blog/posts/2019-06-09-home-git/</link><pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2019-06-09-home-git/</guid><description>&lt;p>Git is an incredibly useful tool for a programmer, you use it to version the
 work you do and distribute it easily on other computers.
 But over the years, I&amp;rsquo;ve found that a lot of my workflow depends on various
 configurations and helper scripts I have in my path.
@@ -1044,7 +1071,7 @@ target="_blank"
 rel="noopener">
 here
 &lt;/a>
-.&lt;/p></description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
+.&lt;/p></description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
 &lt;a href="#kde-connect-useful-commands" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
@@ -1119,7 +1146,7 @@ commands, &lt;em>DBus&lt;/em> is a software serial bus used to send messages fro
 application to another.
 Obviously, some of these commands are specific to KDE, so you would need to dig
 in to find their counterparts for Gnome or any other DE, but if you do, please
-do leave them in comments for others to use.&lt;/p></description></item><item><title>Hello world</title><link>https://martinovic.blog/posts/helloworld/</link><pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/helloworld/</guid><description>&lt;h3 id="well-hello-there">Well, hello there
+do leave them in comments for others to use.&lt;/p></description></item><item><title>Hello world</title><link>https://martinovic.blog/posts/2018-10-08-helloworld/</link><pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2018-10-08-helloworld/</guid><description>&lt;h3 id="well-hello-there">Well, hello there
 &lt;a href="#well-hello-there" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
