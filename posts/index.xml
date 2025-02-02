@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Antonio Martinović blog</title><link>https://martinovic.blog/posts/</link><description>Recent content in Posts on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2024 by Antonio Martinović</copyright><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Antonio Martinović blog</title><link>https://martinovic.blog/posts/</link><description>Recent content in Posts on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2025 by Antonio Martinović</copyright><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
 kind of benefits can we derive from them outside of just fun and relaxation.
 Usually I get flashbacks to childhood arguments with my parents excusing my late
 night gaming sessions and repeating myself plenty how it’s improving my hand eye
@@ -1071,7 +1071,57 @@ target="_blank"
 rel="noopener">
 here
 &lt;/a>
-.&lt;/p></description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
+.&lt;/p></description></item><item><title>Developers are creative and this is how to steer it</title><link>https://martinovic.blog/posts/2015-02-02-developers-are-creative/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2015-02-02-developers-are-creative/</guid><description>&lt;h1 id="heading">
+&lt;a href="#heading" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>We developers love to solve problems, it is probably the largest source of
+dopamine we can get at work so we seek it like an addict. These problems we find
+can be both technical and product related, it doesn’t matter as long as there is
+something we can throw the energy at, get in the flow and after one too many
+cups of coffee have the privilege of exclaiming “Eureka” to the team like some
+modern day Archimedes, hopefully without the running nude around the office
+part.&lt;/p>
+&lt;p>Some product managers will read this and think: “Yeah, I know, they always come
+to me with requests to refactor half the codebase when we only need a quick
+change to cover an edge case, or change some tooltip text”. Yes, I’m aware, I’ve
+done the same in the past, and I think it happens because when this change is
+discussed we spend too much time on the what and the how instead of the why,
+Simon Sinek has something to say about this, enough that he wrote the whole book
+titled “Start With Why” and for a good reason, because I also see this happening
+all the time.&lt;/p>
+&lt;p>When we describe the how and what we are not setting a problem to solve, we are
+handing out instructions instead, and following instructions doesn’t scratch
+that problem solving itch nearly as well. Presenting each issue with a context
+of why it needs fixing, how many users it affects or how much money it costs us,
+makes the expected outcome clearer and, more importantly, it clarifies how much
+effort a solution warrants. Sometimes there are situations when at first a fix
+seems quick, but it turns out to be a mountain of work when we actually start
+working on it or we discover skeletons hidden in the closed from before. When a
+developer understands the why of the issue then they are much more likely to
+take a step back and quite possible start thinking about if the effort is worth
+it or if there is an alternative solution that would reach the same goal. This
+is exactly what we want because the alternative is potentially wasting a lot of
+time.&lt;/p>
+&lt;p>This also extends to actual refactoring and optimising efforts, I think these
+are still important as ever and probably need an even bigger focus on why. Let’s
+focus our discussions on why we are rewriting something, and it’s not because
+“the code is ugly” it’s because it gives a meaningful and impactful outcome, the
+why in these cases is because the user experience is bad due to slowness or the
+developer experience is bad due to the mangled mess that every codebase tends
+become given enough time.&lt;/p>
+&lt;p>I’ve only really seen developers spending huge amounts of time (prematurely)
+optimising and refactoring when the reason why the changes are needed are not
+clear and the problem solver’s mind gets urged to find a problem that isn’t
+important right now. And rest assured, the problems will be found, every
+codebase is absolutely littered with them, it’s just a matter of understanding
+which ones are worth the time and energy investment and the best way to ensure
+everyone understands that is by focusing the discussions on why. So next time
+you feel like an unreasonable amount of time was spent solving a minor issue,
+think about how the problem was presented, was it more the what and the how, or
+the why.&lt;/p></description></item><item><title>KDE Connect commands</title><link>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</link><pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2018-10-20-kdeconnect-commands/</guid><description>&lt;h1 id="kde-connect-useful-commands">KDE Connect useful commands
 &lt;a href="#kde-connect-useful-commands" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
 &lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
 &lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
