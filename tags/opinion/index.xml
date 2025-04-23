@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>opinion on Antonio Martinović blog</title><link>https://martinovic.blog/tags/opinion/</link><description>Recent content in opinion on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2025 by Antonio Martinović</copyright><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/opinion/index.xml" rel="self" type="application/rss+xml"/><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>opinion on Antonio Martinović blog</title><link>https://martinovic.blog/tags/opinion/</link><description>Recent content in opinion on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2025 by Antonio Martinović</copyright><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/opinion/index.xml" rel="self" type="application/rss+xml"/><item><title>Actually useful technical interviews</title><link>https://martinovic.blog/posts/2025-04-23-technical-interviews/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2025-04-23-technical-interviews/</guid><description>&lt;p>Software engineering interviews are like putting together IKEA furniture, a
+little bit of it is fun and interesting, but it gets dull quickly if you have to
+put together an entire office worth, and there are always a few extra bits at
+the end that you are unsure about because you haven’t read the manual, also,
+your opinion of the candidate feels complete, but if pressed on it more often
+than not it will fall down much like that IKEA cabinet. Simply put, an interview
+will never give us a complete picture of the candidate, so let’s discuss how to
+live with that.&lt;/p>
+&lt;p>There is no point in rapid fire technical questions about data structures,
+message brokers, database indexes, caching and so on, all you are checking with
+those is if the candidate got a passing grade at the university or if they
+recently read through AWS or Azure documentation with enough brain turned on to
+actually remember it. What’s far more important is them being able to apply
+their knowledge to solve a real business case problem in a reasonable way.&lt;/p>
+&lt;p>Another lacklustre exercise that became popular is the live coding challenges,
+the reasoning behind those is fine, but it might as well be passed by someone
+who went through an Udemy course on basics of whatever the framework in question
+is. I really hope that inverting a binary tree is just a meme at this point and
+that nobody actually uses it, because that would be like hiring a firefighter
+for their ability can piss very far, impressive, but hardly useful in a real
+emergency scenario.&lt;/p>
+&lt;p>Let’s think again about actually what are we looking for, is it individuals with
+vast technical expertise or code prodigies? Such skills are useful of course,
+but in a team environment it’s far more valuable to find people who can
+collaborate to solve genuine human or business problems, and be decent at coding
+solutions to those. Therefore interviews should centre around what software
+engineers spend most of their time doing: working with others, brainstorming
+ideas, being able to understand the essence of what needs to be done and how
+much effort is worth investing in that.&lt;/p>
+&lt;h1 id="what-should-we-do-instead">What should we do instead?
+&lt;a href="#what-should-we-do-instead" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>OK, so that’s a lot of what not to do, so what do I actually want to propose for
+successful interviews? Let’s imagine we are interviewing a fresh new candidate
+with a reasonable CV. We’ll start it off with a round of obligatory
+introductions and some friendly get to know each other, then let’s take a moment
+to say that the goal of the interview is mainly to have a nice conversation,
+that it’s encouraged to ask questions that there are no wrong answers, well, I
+mean, of course there are, but the idea is to make the candidate understand that
+we value open and clear communication the most.&lt;/p>
+&lt;p>My favourite starting question is “tell me about the something you recently
+worked on that you’re proud of for solving it”, yeah, it’s a bit cliche, but I
+like it because it’s an easy starting question, it allows the candidate show
+themselves off right at the start which help lighten any nerves, but there is
+also a lot to be discovered from their answer. What they say here also shows
+what this person finds important and how pragmatic they are about their
+solution. It also tells you what kind of a engineer they are, are they mainly
+technical or also product and business oriented, are they a lone wolf or a team
+member, are they are short term or long term thinker. Another thing, I always
+think highly of those who point out any mistakes they’ve done, or what they
+could have been done better, this is a quality that only those eager to improve
+show, you want those.&lt;/p>
+&lt;p>Next up is a brainstorming exercise with the candidate where I will present a
+real issue that my team had to tackle recently. I think it’s especially
+important that the problem is something you’ve personally worked on because it
+gives you the background knowledge on requirements and possible pitfalls that
+you can use to steer the discussion and see how the person sees those and how
+they handle the new information you present them. It’s not expected that the
+candidate will necessarily think of those on their own if they are niche enough,
+you as well might have only became aware of those during implementation work so
+be understanding of that when judging their answers. Here I’m always wary of
+overly confident candidates, they will not question themselves and often speak
+in absolutes, this is where your experience means a lot, you can find flaws in
+their logic and push them on it. The candidate being unsure or openly admitting
+they would need to investigate a bit actually show a great mindset, it tells
+your that they are aware of their gaps in knowledge and will always try to
+consider alternative options before committing.&lt;/p>
+&lt;p>The amount and depth of questions that the candidate asks at any point during
+the interview will tell you a lot more about them then how good they are at
+explaining the differences between linked and array lists. When was the last
+time that something like that was the biggest blocker in the implementation of a
+feature, in reality, the blockers are incomplete requirements, bad user
+experience and vague expectations and your new hire should be adept at
+navigating this unclear environment to get the best possible outcome for the
+customer, these people will bring true quality.&lt;/p>
+&lt;p>Lastly, the coding exercises should not be about writing new code, instead they
+should be about reading existing code, so I much prefer doing code review
+exercise to writing a new bit of code. This candidate will come into a living
+code base with real technical debt and most of their time will be spent
+understanding the existing stuff so it’s super important they are able to do
+that and that they offer quality feedback on it, much more then them being able
+to quickly churn out a new frontend component or a backend endpoint.&lt;/p>
+&lt;h1 id="lets-conclude">Let&amp;rsquo;s conclude
+&lt;a href="#lets-conclude" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+&lt;/svg> &lt;/a>
+&lt;/h1>
+&lt;p>You’re hiring someone that will be a part of your team, be
+influenced by people already there and affect the culture of the existing team
+and company. Use the interview to understand if this person will bring a net
+positive effect to the culture and help steer it into the direction you believe
+is right. Yes, I understand that I’m asking you to see if the candidate passes
+the “vibe check” but you will be spending a lot of hours working with this
+person every day and so will your team, you should “vibe”
+them.&lt;/p></description></item><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
 kind of benefits can we derive from them outside of just fun and relaxation.
 Usually I get flashbacks to childhood arguments with my parents excusing my late
 night gaming sessions and repeating myself plenty how it’s improving my hand eye
