@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>opinion on Antonio Martinović blog</title><link>https://martinovic.blog/tags/opinion/</link><description>Recent content in opinion on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2025 by Antonio Martinović</copyright><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/opinion/index.xml" rel="self" type="application/rss+xml"/><item><title>Actually useful technical interviews</title><link>https://martinovic.blog/posts/2025-04-23-technical-interviews/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2025-04-23-technical-interviews/</guid><description>&lt;p>Software engineering interviews are like putting together IKEA furniture, a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Opinion on Antonio Martinović blog</title><link>https://martinovic.blog/tags/opinion/</link><description>Recent content in Opinion on Antonio Martinović blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>martinovic.antonio@gmail.com (Antonio Martinović)</managingEditor><webMaster>martinovic.antonio@gmail.com (Antonio Martinović)</webMaster><copyright>Copyright 2026 by Antonio Martinović</copyright><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinovic.blog/tags/opinion/index.xml" rel="self" type="application/rss+xml"/><item><title>Actually useful technical interviews</title><link>https://martinovic.blog/posts/2025-04-23-technical-interviews/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2025-04-23-technical-interviews/</guid><description>&lt;p&gt;Software engineering interviews are like putting together IKEA furniture, a
 little bit of it is fun and interesting, but it gets dull quickly if you have to
 put together an entire office worth, and there are always a few extra bits at
 the end that you are unsure about because you haven’t read the manual, also,
 your opinion of the candidate feels complete, but if pressed on it more often
 than not it will fall down much like that IKEA cabinet. Simply put, an interview
 will never give us a complete picture of the candidate, so let’s discuss how to
-live with that.&lt;/p>
-&lt;p>There is no point in rapid fire technical questions about data structures,
+live with that.&lt;/p&gt;
+&lt;p&gt;There is no point in rapid fire technical questions about data structures,
 message brokers, database indexes, caching and so on, all you are checking with
 those is if the candidate got a passing grade at the university or if they
 recently read through AWS or Azure documentation with enough brain turned on to
 actually remember it. What’s far more important is them being able to apply
-their knowledge to solve a real business case problem in a reasonable way.&lt;/p>
-&lt;p>Another lacklustre exercise that became popular is the live coding challenges,
+their knowledge to solve a real business case problem in a reasonable way.&lt;/p&gt;
+&lt;p&gt;Another lacklustre exercise that became popular is the live coding challenges,
 the reasoning behind those is fine, but it might as well be passed by someone
 who went through an Udemy course on basics of whatever the framework in question
 is. I really hope that inverting a binary tree is just a meme at this point and
 that nobody actually uses it, because that would be like hiring a firefighter
 for their ability can piss very far, impressive, but hardly useful in a real
-emergency scenario.&lt;/p>
-&lt;p>Let’s think again about actually what are we looking for, is it individuals with
+emergency scenario.&lt;/p&gt;
+&lt;p&gt;Let’s think again about actually what are we looking for, is it individuals with
 vast technical expertise or code prodigies? Such skills are useful of course,
 but in a team environment it’s far more valuable to find people who can
 collaborate to solve genuine human or business problems, and be decent at coding
 solutions to those. Therefore interviews should centre around what software
 engineers spend most of their time doing: working with others, brainstorming
 ideas, being able to understand the essence of what needs to be done and how
-much effort is worth investing in that.&lt;/p>
-&lt;h1 id="what-should-we-do-instead">What should we do instead?
-&lt;a href="#what-should-we-do-instead" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h1>
-&lt;p>OK, so that’s a lot of what not to do, so what do I actually want to propose for
+much effort is worth investing in that.&lt;/p&gt;
+&lt;h1 id="what-should-we-do-instead"&gt;What should we do instead?
+&lt;a href="#what-should-we-do-instead" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;OK, so that’s a lot of what not to do, so what do I actually want to propose for
 successful interviews? Let’s imagine we are interviewing a fresh new candidate
 with a reasonable CV. We’ll start it off with a round of obligatory
 introductions and some friendly get to know each other, then let’s take a moment
 to say that the goal of the interview is mainly to have a nice conversation,
 that it’s encouraged to ask questions that there are no wrong answers, well, I
 mean, of course there are, but the idea is to make the candidate understand that
-we value open and clear communication the most.&lt;/p>
-&lt;p>My favourite starting question is “tell me about the something you recently
+we value open and clear communication the most.&lt;/p&gt;
+&lt;p&gt;My favourite starting question is “tell me about the something you recently
 worked on that you’re proud of for solving it”, yeah, it’s a bit cliche, but I
 like it because it’s an easy starting question, it allows the candidate show
 themselves off right at the start which help lighten any nerves, but there is
@@ -52,8 +52,8 @@ technical or also product and business oriented, are they a lone wolf or a team
 member, are they are short term or long term thinker. Another thing, I always
 think highly of those who point out any mistakes they’ve done, or what they
 could have been done better, this is a quality that only those eager to improve
-show, you want those.&lt;/p>
-&lt;p>Next up is a brainstorming exercise with the candidate where I will present a
+show, you want those.&lt;/p&gt;
+&lt;p&gt;Next up is a brainstorming exercise with the candidate where I will present a
 real issue that my team had to tackle recently. I think it’s especially
 important that the problem is something you’ve personally worked on because it
 gives you the background knowledge on requirements and possible pitfalls that
@@ -67,36 +67,36 @@ in absolutes, this is where your experience means a lot, you can find flaws in
 their logic and push them on it. The candidate being unsure or openly admitting
 they would need to investigate a bit actually show a great mindset, it tells
 your that they are aware of their gaps in knowledge and will always try to
-consider alternative options before committing.&lt;/p>
-&lt;p>The amount and depth of questions that the candidate asks at any point during
+consider alternative options before committing.&lt;/p&gt;
+&lt;p&gt;The amount and depth of questions that the candidate asks at any point during
 the interview will tell you a lot more about them then how good they are at
 explaining the differences between linked and array lists. When was the last
 time that something like that was the biggest blocker in the implementation of a
 feature, in reality, the blockers are incomplete requirements, bad user
 experience and vague expectations and your new hire should be adept at
 navigating this unclear environment to get the best possible outcome for the
-customer, these people will bring true quality.&lt;/p>
-&lt;p>Lastly, the coding exercises should not be about writing new code, instead they
+customer, these people will bring true quality.&lt;/p&gt;
+&lt;p&gt;Lastly, the coding exercises should not be about writing new code, instead they
 should be about reading existing code, so I much prefer doing code review
 exercise to writing a new bit of code. This candidate will come into a living
 code base with real technical debt and most of their time will be spent
 understanding the existing stuff so it’s super important they are able to do
 that and that they offer quality feedback on it, much more then them being able
-to quickly churn out a new frontend component or a backend endpoint.&lt;/p>
-&lt;h1 id="lets-conclude">Let&amp;rsquo;s conclude
-&lt;a href="#lets-conclude" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h1>
-&lt;p>You’re hiring someone that will be a part of your team, be
+to quickly churn out a new frontend component or a backend endpoint.&lt;/p&gt;
+&lt;h1 id="lets-conclude"&gt;Let&amp;rsquo;s conclude
+&lt;a href="#lets-conclude" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;You’re hiring someone that will be a part of your team, be
 influenced by people already there and affect the culture of the existing team
 and company. Use the interview to understand if this person will bring a net
 positive effect to the culture and help steer it into the direction you believe
 is right. Yes, I understand that I’m asking you to see if the candidate passes
 the “vibe check” but you will be spending a lot of hours working with this
 person every day and so will your team, you should “vibe”
-them.&lt;/p></description></item><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p>Few times already I’ve had discussions with people about video games and what
+them.&lt;/p&gt;</description></item><item><title>Video game XP IRL</title><link>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2024-12-01-real-life-xp-from-video-games/</guid><description>&lt;p&gt;Few times already I’ve had discussions with people about video games and what
 kind of benefits can we derive from them outside of just fun and relaxation.
 Usually I get flashbacks to childhood arguments with my parents excusing my late
 night gaming sessions and repeating myself plenty how it’s improving my hand eye
@@ -104,75 +104,75 @@ coordination, teaching me about other cultures and how there are pro players
 earning money on this stuff. Yeah, you can sense a bit of sarcasm there because
 the I could have made my point way more convincing with a bit more elaboration,
 but then again, also with a much more life experience to actually notice the
-effects.&lt;/p>
-&lt;p>The reasoning I hear from other people is that gaming is wasting the time you
+effects.&lt;/p&gt;
+&lt;p&gt;The reasoning I hear from other people is that gaming is wasting the time you
 could spend doing productive things, whatever that might be, and yeah, I’m sure
 you could find more productive ways of spending your time than gaming, there are
 plethora of ways. I did try to avoid gaming at some point, and it worked for a
 while, but I didn’t replace it with some other form of relaxation and soon it
 simply got replaced with binging YouTube or Netflix. If you are a sort of person
 that can go without a release valve then you can stop reading this article and
-go do something smarter.&lt;/p>
-&lt;p>I’m not a video game designer by any means, but I do notice when the designers
+go do something smarter.&lt;/p&gt;
+&lt;p&gt;I’m not a video game designer by any means, but I do notice when the designers
 manage to achieve a great player progression curve and difficulty balance that
 is fair to the player and respectful of their time and effort. Every time I get
 beat up in a video game and immediately feel the need to improve and go at it
 again, I get reminded of how important that mindset is in the real world as
 well. Failures are our best learning experiences and we feel much better about
-ourselves when we keep growing compared to ourselves in the past.&lt;/p>
-&lt;p>So as long as you gaming habit is not so addictive that it tangibly negatively
+ourselves when we keep growing compared to ourselves in the past.&lt;/p&gt;
+&lt;p&gt;So as long as you gaming habit is not so addictive that it tangibly negatively
 impacts other aspects of your live, don’t feel about about other people saying
 gaming is a waste of time, because if it makes you feel better, and teaches you
-a thing or two, it’s a great source of motivation.&lt;/p></description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go">The biggest challenge with new leaders is letting go
-&lt;a href="#the-biggest-challenge-with-new-leaders-is-letting-go" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h1>
-&lt;p>If you are in the top end of seniority in your team or company, either in
+a thing or two, it’s a great source of motivation.&lt;/p&gt;</description></item><item><title>Don't present solutions, present problems</title><link>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</link><pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-06-22-dont-present-problems-present-solutions/</guid><description>&lt;h1 id="the-biggest-challenge-with-new-leaders-is-letting-go"&gt;The biggest challenge with new leaders is letting go
+&lt;a href="#the-biggest-challenge-with-new-leaders-is-letting-go" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;If you are in the top end of seniority in your team or company, either in
 technical or domain aspects, chances are you will quickly understand the issue
 or a new feature your team is presented with and you’ll also have a good clue on
 how to approach it due to your technical knowledge or familiarity of the product
 and the system. This is great and extremely valuable to the organisation, but
-it’s not always beneficial to immediately share your insight with the team.&lt;/p>
-&lt;p>This is one of the most fundamental mindset shifts when moving to a
+it’s not always beneficial to immediately share your insight with the team.&lt;/p&gt;
+&lt;p&gt;This is one of the most fundamental mindset shifts when moving to a
 leadership focused role and it’s often one of the most difficult ones, I know
 it was for me. It is a great feeling to be the person with all the answers, the
 dopamine hit of everyone listening and agreeing with you when you shoot a great
 solution out immediately as you were presented with a problem is very addictive,
-but it stops being productive rather quickly.&lt;/p>
-&lt;p>Your job now is to support and develop others, if you are always presenting
+but it stops being productive rather quickly.&lt;/p&gt;
+&lt;p&gt;Your job now is to support and develop others, if you are always presenting
 solutions, you are not doing that because others don’t have an opportunity to
 learn and develop and because of this, I will go even as far as to say that
 always presenting solutions is hurting the entire organisation in the long term.
 What happens if you get hit by a bus or, more probably, go on a vacation for two
-weeks? Will your team become paralysed? Will they be able to solve a crisis?&lt;/p>
-&lt;p>This gets proportionally more important with high achievers who want to be
+weeks? Will your team become paralysed? Will they be able to solve a crisis?&lt;/p&gt;
+&lt;p&gt;This gets proportionally more important with high achievers who want to be
 noticed and want to solve the big problems and if they don’t get the chance,
 they will either leave, or worse, stop striving for more due to a lack of
 motivation. Ask them directly how to solve a problem, it’s mutually beneficial,
 and it&amp;rsquo;s supposed to be genuine, not tricking others into a false sense
-responsibility, it won&amp;rsquo;t work if you make a ceremony out of it.&lt;/p></description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</guid><description>&lt;h1 id="there-are-no-dumb-questions-only-dumb-answers">There are no dumb questions, only dumb answers
-&lt;a href="#there-are-no-dumb-questions-only-dumb-answers" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h1>
-&lt;p>Above is something I always repeat when someone starts a question with &amp;ldquo;This is
+responsibility, it won&amp;rsquo;t work if you make a ceremony out of it.&lt;/p&gt;</description></item><item><title>There are no dumb questions</title><link>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><author>martinovic.antonio@gmail.com (Antonio Martinović)</author><guid>https://martinovic.blog/posts/2023-05-18-no-dumb-questions/</guid><description>&lt;h1 id="there-are-no-dumb-questions-only-dumb-answers"&gt;There are no dumb questions, only dumb answers
+&lt;a href="#there-are-no-dumb-questions-only-dumb-answers" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Above is something I always repeat when someone starts a question with &amp;ldquo;This is
 probably a dumb question, but&amp;hellip;&amp;rdquo;.
 The thought process behind it makes total sense: either a person doesn&amp;rsquo;t want to
 waste the time of other people on the team or doesn&amp;rsquo;t want to look silly, so
 they start with a nice cushion to fall back on in case somebody answers in a
 condescending manner.
 But in reality, this kind of interaction doesn&amp;rsquo;t help anyone.
-Let me break down my reasoning.&lt;/p>
-&lt;h2 id="asking-lots-of-questions-saves-time">Asking lots of questions saves time
-&lt;a href="#asking-lots-of-questions-saves-time" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h2>
-&lt;p>You know what&amp;rsquo;s much dumber than asking stupid questions? Carrying on with doing
+Let me break down my reasoning.&lt;/p&gt;
+&lt;h2 id="asking-lots-of-questions-saves-time"&gt;Asking lots of questions saves time
+&lt;a href="#asking-lots-of-questions-saves-time" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;You know what&amp;rsquo;s much dumber than asking stupid questions? Carrying on with doing
 something with an incorrect assumption from the beginning.
 Many wise people have been heard quoting: &amp;ldquo;Assumption is the mother of all
 fuck-ups&amp;rdquo;.
@@ -183,14 +183,14 @@ time needed for you or another person to notice the mistake and for the
 corrections to be made.
 Any mistake, in general, is much cheaper to fix time-wise before any
 implementation work takes place, and it gets exponentially more expensive with
-each stage, from QA to production.&lt;/p>
-&lt;h2 id="it-offers-a-chance-to-rethink">It offers a chance to rethink
-&lt;a href="#it-offers-a-chance-to-rethink" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h2>
-&lt;p>People are surprisingly adept at forgetting things, overlooking details and
+each stage, from QA to production.&lt;/p&gt;
+&lt;h2 id="it-offers-a-chance-to-rethink"&gt;It offers a chance to rethink
+&lt;a href="#it-offers-a-chance-to-rethink" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;People are surprisingly adept at forgetting things, overlooking details and
 jumping to conclusions, so sometimes the simplest of questions can make even the
 most senior team members take a step back and reassess, or observe the problem
 from another perspective and notice something new, maybe that an important piece
@@ -198,14 +198,14 @@ of information is missing or a technical debt that needs to be dealt with first
 related to that shortcut we took in the previous sprint.
 Most products are trying to solve difficult problems with edge cases and
 indirect complexities, otherwise, those should instead be an Excel spreadsheet
-with a few macros or a WordPress site.&lt;/p>
-&lt;h2 id="it-promotes-a-culture-of-communication-and-collaboration">It promotes a culture of communication and collaboration
-&lt;a href="#it-promotes-a-culture-of-communication-and-collaboration" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h2>
-&lt;p>Very often there is a lot of uncertainty when new features or products are
+with a few macros or a WordPress site.&lt;/p&gt;
+&lt;h2 id="it-promotes-a-culture-of-communication-and-collaboration"&gt;It promotes a culture of communication and collaboration
+&lt;a href="#it-promotes-a-culture-of-communication-and-collaboration" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Very often there is a lot of uncertainty when new features or products are
 developed, by fostering clear and open communication through encouragement of
 asking questions we can greatly reduce those uncertainties. When people feel
 comfortable sharing their thoughts and ideas they will be more likely to discuss
@@ -214,14 +214,14 @@ cooperation within a team.
 Everyone can behave in this way, but it’s especially important for more senior
 members as they should aim for their behaviour being what others look up to, and
 if they are acting like a dismissive smartarses others will be afraid to speak
-for fear of looking stupid.&lt;/p>
-&lt;h1 id="but-please-be-respectful-of-others-time">But please be respectful of others’ time
-&lt;a href="#but-please-be-respectful-of-others-time" class="anchor"> &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-&lt;/svg> &lt;/a>
-&lt;/h1>
-&lt;p>Asking questions is good, regardless if you think it’s a small question or a big
+for fear of looking stupid.&lt;/p&gt;
+&lt;h1 id="but-please-be-respectful-of-others-time"&gt;But please be respectful of others’ time
+&lt;a href="#but-please-be-respectful-of-others-time" class="anchor"&gt; &lt;svg fill="#444444" width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"&gt;
+&lt;path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/&gt;
+&lt;path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/&gt;
+&lt;/svg&gt; &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Asking questions is good, regardless if you think it’s a small question or a big
 question, especially as a more junior team member, you don’t understand the
 whole domain enough to know how good the question is, and sometime the same
 question will be asked multiple times, sometimes it’s just that complicated and
@@ -229,4 +229,4 @@ that’s fine (this is a good indication that it should be documented).
 With that said, if you asked your colleague a question and they’ve invested time
 and effort to answer you, then you should invest the effort to remember what was
 said, or even better, write it down, because it can get irritating to be asked
-the same question multiple times, it could be interpreted as disrespectful even.&lt;/p></description></item></channel></rss>
+the same question multiple times, it could be interpreted as disrespectful even.&lt;/p&gt;</description></item></channel></rss>
