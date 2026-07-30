@@ -10,6 +10,8 @@
   --title-font: 'Poltawski Nowy', serif;
   --text-font: 'Open Sans', sans-serif;
   --code-font: 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  --line-height-scalar: 1.8;
 }
 
 html[data-theme-effective="light"] {

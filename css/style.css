@@ -180,8 +180,20 @@ pre {
   overflow-wrap: anywhere;
 }
 
+.markdown-image {
+  margin: var(--space-content-vertical) 0;
+  text-align: center;
+}
+
 .markdown-image img {
   max-width: 100%;
+}
+
+.markdown-image figcaption {
+  margin-top: var(--space-xs);
+  color: var(--text-secondary);
+  font-size: var(--text-size-n);
+  line-height: var(--line-height-scalar);
 }
 
 .anchor {
@@ -497,7 +509,6 @@ nav.navigation .theme-toggle svg {
   font-size: var(--text-size-xxl);
   line-height: var(--heading-line-height-scalar);
   font-weight: var(--font-weight-title);
-  margin: var(--space-page-vertical) 0 var(--space-page-vertical) 0;
 }
 
 #article .description {
