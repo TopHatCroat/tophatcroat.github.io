@@ -336,6 +336,14 @@ nav.navigation .theme-toggle svg {
   display: block;
 }
 
+hr {
+  display: block;
+  border: none;
+  height: 1px;
+  margin: calc(var(--space-page-vertical) * 0.5) auto;
+  background: var(--border);
+}
+
 /* footer */
 #footer {
   margin: calc(var(--space-page-vertical) * 2) 0 var(--space-page-vertical) 0;
@@ -472,15 +480,7 @@ nav.navigation .theme-toggle svg {
   color: var(--text-secondary);
   word-break: normal;
   overflow-wrap: anywhere;
-  padding: calc(var(--space-page-vertical) * 0.1) 0 calc(var(--space-page-vertical) * 0.8) 0;
-}
-
-#article-list hr {
-  display: block;
-  border: none;
-  height: 1px;
-  margin: calc(var(--space-page-vertical) * 0.3) auto;
-  background: var(--border);
+  padding: calc(var(--space-page-vertical) * 0.2) 0;
 }
 
 #article-list .pagination {
