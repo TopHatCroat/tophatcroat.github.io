@@ -8,10 +8,12 @@
   --border: #dcd2dc;
 
   --title-font: 'Poltawski Nowy', serif;
-  --text-font: 'Open Sans', sans-serif;
+  --text-font: 'Poppins', sans-serif;
   --code-font: 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 
   --line-height-scalar: 1.8;
+
+  --space-page-width: calc(var(--space-base) * 44);
 }
 
 html[data-theme-effective="light"] {
