@@ -2,8 +2,8 @@
   --accent-color: #8e24aa;
   --accent-color-light: #ab47bc;
   --text-primary: #252525;
-  --text-secondary: #888888;
-  --background: #FFFFFF;
+  --text-secondary: #5a5a5a;
+  --background: #f5f5ea;
   --background-secondary: #fbf9fb;
   --border: #dcd2dc;
 
@@ -20,8 +20,8 @@ html[data-theme-effective="light"] {
   --accent-color: #8e24aa;
   --accent-color-light: #ab47bc;
   --text-primary: #252525;
-  --text-secondary: #888888;
-  --background: #FFFFFF;
+  --text-secondary: #5a5a5a;
+  --background: #f5f5ea;
   --background-secondary: #fbf9fb;
   --border: #dcd2dc;
 }
